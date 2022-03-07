@@ -13,7 +13,7 @@ from utils import retry
 SCOPE = "contratos"
 DATA_PATH = os.path.join(os.getcwd(), '..', 'data', SCOPE)
 TIME_STAMP = datetime.now().strftime("%Y%m%d")
-RAW_PA_CONTS_PATH = os.path.join(DATA_PATH, 'raw_pa_conts', TIME_STAMP)
+
 BASE_URL = "https://www.contratacion.euskadi.eus/"
 COOKIES_URL = BASE_URL + "w32-kpetrans/es/ac70cPublicidadWar" \
                          "/busquedaInformesOpenData" \
@@ -36,8 +36,39 @@ XML_LIST_FIELDS = (
     'prorrogas', 'modificacionesPlazo', 'modificacionesObjeto', 'finalizaciones',
     'lugaresAplicacion', 'resoluciones', 'publicacionesDOUE')
 
+CONT_KNOWN_KEYS = ['cont_od_date_año', 'cont_pa_cod_perfil', 'cont_od_id', 'cont_od_date_fecha_mod', 'objetoContratoEs',
+                   'objetoContratoEu', 'codContrato', 'adjudicatario-identificacion', 'adjudicatario-razonSocial',
+                   'estadoContrato-descripcionEs', 'estadoContrato-descripcionEu', 'tipoContrato-descripcionEs',
+                   'tipoContrato-descripcionEu', 'estadoTramitacion-descripcionEs', 'estadoTramitacion-descripcionEu',
+                   'procedimientoAdjudicacion-descripcionEs', 'procedimientoAdjudicacion-descripcionEu',
+                   'criterioAdjudicacion-descripcionEs', 'criterioAdjudicacion-descripcionEu',
+                   'poderAdjudicador-descripciones-descripcionEs', 'poderAdjudicador-descripciones-descripcionEu',
+                   'poderAdjudicador-tipoAdministracion-descripcionEs',
+                   'poderAdjudicador-tipoAdministracion-descripcionEu', 'entidadImpulsora-descripcionEs',
+                   'entidadImpulsora-descripcionEu', 'organoContratacion-descripcionEs',
+                   'organoContratacion-descripcionEu', 'entidadTramitadora-descripcionEs',
+                   'entidadTramitadora-descripcionEu', 'mesaContratacion-descripcionEs',
+                   'mesaContratacion-descripcionEu', 'lugarEjecucionEuropea', 'fechaAdjudicacion', 'fechaFirma',
+                   'duracionContrato-duracion', 'duracionContrato-tipoDuracion-descripcionEs',
+                   'duracionContrato-tipoDuracion-descripcionEu', 'importeAdjudicacionSinIva',
+                   'importeAdjudicacionConIva', 'fechaFinContrato', 'plurianual', 'clausulasEspeciales', 'cpv-codCPV',
+                   'cpv-descripciones-descripcionEs', 'cpv-descripciones-descripcionEu', 'publicidad',
+                   'publicacionesDOUE', 'fechaPublicacion', 'presupuestoSinIva', 'presupuestoConIva', 'ivas',
+                   'anualidades', 'numeroLicitadores', 'prorrogas',
+                   'modificacionesAdjudicatario-modificacionAdjudicatario-tipoCambio-descripcionEs',
+                   'modificacionesAdjudicatario-modificacionAdjudicatario-tipoCambio-descripcionEu',
+                   'modificacionesAdjudicatario-modificacionAdjudicatario-fechaAcuerdo',
+                   'modificacionesAdjudicatario-modificacionAdjudicatario-adjudicatario-razonSocial',
+                   'modificacionesAdjudicatario-modificacionAdjudicatario-fichero', 'codExp', 'ute', 'divisionLotes',
+                   'nutses', 'modificacionesPlazo', 'resoluciones', 'finalizaciones', 'publicacionesBOE',
+                   'publicacionesBOPV', 'modificacionesObjeto', 'modificacionesIncidencia', 'observacionesEs',
+                   'observacionesEu', 'duracionContrato-fechaDuracionFin', 'condicionesEjecucion-descripcionEs',
+                   'condicionesEjecucion-descripcionEu', 'continuidad', 'obligIndiProfAsig', 'reservadoTalleres',
+                   'publicacionesBOTH', 'regimenGeneral-descripcionEs', 'regimenGeneral-descripcionEu',
+                   'revisionPrecios', 'garantias-garantias-garantiaContrato-fecha']
 
-def get_raw_cont_files():
+
+def get_raw_cont_files(date=TIME_STAMP):
     """ Fetch and store `xml` and `json` CONT data locally """
     for pa_d in get_pa_dict_list():
         pa_cod_perfil = pa_d['codPerfil']
@@ -47,8 +78,7 @@ def get_raw_cont_files():
             cont_mod_date = cont['fechaModif'].replace('-', '')
             cont_id = str(int(cont['idInformeOpendata']))
             cont_fname = f"{int(pa_cod_perfil):05d}_{cont_date}_{cont_id}_{cont_mod_date}"
-
-            cont_fpath = os.path.join(RAW_PA_CONTS_PATH, cont_fname)
+            cont_fpath = os.path.join(DATA_PATH, 'raw_pa_conts', date, cont_fname)
             if os.path.isdir(cont_fpath):
                 continue
 
@@ -98,25 +128,118 @@ def get_cont_list_by_pa(pa_cod_perfil):
     return r_json["rows"]
 
 
-def get_cont_file():
-    with open(os.path.join(DATA_PATH, f"{TIME_STAMP}_contratos.jsonl"), 'w') as contfile:
+def get_cont_file(date=TIME_STAMP):
+    """ Parses and cleans raw CONT xml data and stores it in a CONT jsonl file """
+    with open(os.path.join(DATA_PATH, f"{date}_contratos.jsonl"), 'w') as contfile:
+        raw_pa_conts_path = os.path.join(DATA_PATH, 'raw_pa_conts', date)
         # Iterating through every CONT directory
-        for dirname in os.listdir(RAW_PA_CONTS_PATH):
-            dir_path = os.path.join(RAW_PA_CONTS_PATH, dirname)
+        for dirname in os.listdir(raw_pa_conts_path):
+            dir_path = os.path.join(raw_pa_conts_path, dirname)
             pa_cod_perfil, cont_date, cont_id, cont_mod_date = dirname.split('_')
             pa_cod_perfil = str(int(pa_cod_perfil))
-            cont_d = {"cont_date": cont_date, "pa_cod_perfil": pa_cod_perfil,
-                      "cont_id": cont_id, "cont_mod_date": cont_mod_date}
+
             # Iterating through every CONT in a given `xml` file
             if len(os.listdir(dir_path)) != 2:
                 continue
             for xml_cont in ET.parse(os.path.join(dir_path, dirname + '.xml')).getroot():
-                parsed_cont_d = parse_xml_field(node=xml_cont, dict_obj=cont_d.copy())
+                cont_d = {"cont_od_date_año": cont_date, "cont_pa_cod_perfil": pa_cod_perfil,
+                          "cont_od_id": cont_id, "cont_od_date_fecha_mod": cont_mod_date}
+                parsed_cont_d = parse_xml_field(node=xml_cont, dict_obj=cont_d)
                 parsed_cont_d["codExp"], *_ = parsed_cont_d["codContrato"].split('_')
-                contfile.write(json.dumps(parsed_cont_d, ensure_ascii=False) + '\n')
+                check_no_matched_key(parsed_cont_d)
+                clean_cont = get_clean_cont(parsed_cont_d)
+                contfile.write(json.dumps(clean_cont, ensure_ascii=False) + '\n')
+
+
+def get_clean_cont(cont_d):
+    """ Returns a dict object with selected CONT values """
+    return {
+        "cont_od_date_año": cont_d.get("cont_od_date_año"),
+        # "cont_od_date_fecha_mod": cont_d.get("cont_od_date_fecha_mod"),
+        # "cont_od_id": cont_d.get("cont_od_id"),
+        "cont_date_firma": cont_d.get("fechaFirma"),
+        "cont_date_adjudicacion": cont_d.get("fechaAdjudicacion"),
+        "cont_estado_contrato_es": cont_d.get("estadoContrato-descripcionEs"),
+        # "cont_estado_contrato_eu": cont_d.get("estadoContrato-descripcionEu"),
+        "cont_estado_tramitacion_es": cont_d.get("estadoTramitacion-descripcionEs"),
+        # "cont_estado_tramitacion_eu": cont_d.get("estadoTramitacion-descripcionEu"),
+        "cont_tipo_contrato_es": cont_d.get("tipoContrato-descripcionEs"),
+        # "cont_tipo_contrato_eu": cont_d.get("tipoContrato-descripcionEu"),
+        "cont_procedimiento_es": cont_d.get("procedimientoAdjudicacion-descripcionEs"),
+        # "cont_procedimiento_eu": cont_d.get("procedimientoAdjudicacion-descripcionEu"),
+        # "cont_criterio_es": cont_d.get("criterioAdjudicacion-descripcionEs"),
+        # "cont_criterio_eu": cont_d.get("criterioAdjudicacion-descripcionEu"),
+        # "cont_bool_lugar_ejecucion_europa": cont_d.get("lugarEjecucionEuropea"),
+        # "cont_bool_ute": cont_d.get("ute"),
+        "cont_pa_cod_perfil": cont_d.get("cont_pa_cod_perfil"),
+        # "cont_pa_descripcion_es": cont_d.get("poderAdjudicador-descripciones-descripcionEs"),
+        # "cont_pa_descripcion_eu": cont_d.get("poderAdjudicador-descripciones-descripcionEu"),
+        "cont_pa_tipo_es": cont_d.get("poderAdjudicador-tipoAdministracion-descripcionEs"),
+        # "cont_pa_tipo_eu": cont_d.get("poderAdjudicador-tipoAdministracion-descripcionEu"),
+        "cont_pa_ei_es": cont_d.get("entidadImpulsora-descripcionEs"),
+        # "cont_pa_ei_eu": cont_d.get("entidadImpulsora-descripcionEu"),
+        "cont_pa_ei_organo_es": cont_d.get("organoContratacion-descripcionEs"),
+        # "cont_pa_ei_organo_eu": cont_d.get("organoContratacion-descripcionEs"),
+        "cont_adjt_id": get_adjt_id(cont_d),
+        "cont_adjt_name": get_adjt_name(cont_d),
+        # "cont_cod_exp": cont_d.get("codExp"),
+        # "cont_cod_contrato": cont_d.get("codContrato"),
+        # "cont_objeto_es": cont_d.get("objetoContratoEs"),
+        # "cont_objeto_eu": cont_d.get("objetoContratoEu"),
+        "cont_cpv": cont_d.get("cpv-codCPV"),
+        "cont_nuts": get_nuts(cont_d),
+        "cont_importe_sin_iva": get_cont_importe_sin_iva(cont_d),
+        "cont_importe_con_iva": get_cont_importe_con_iva(cont_d),
+        # "cont_num_adjt": cont_d.get("numeroLicitadores"),
+    }
+
+
+def get_adjt_name(cont_d):
+    """ Gets `adjt_name` value for a given CONT """
+    if cont_d.get("adjudicatario-razonSocial"):
+        return cont_d["adjudicatario-razonSocial"].upper().strip()
+    else:
+        return None
+
+
+def get_adjt_id(cont_d):
+    """ Gets `adjt_id` value for a given CONT """
+    if cont_d.get("adjudicatario-identificacion"):
+        return str(cont_d["adjudicatario-identificacion"]).upper().strip()
+    else:
+        return None
+
+
+def get_nuts(cont_d):
+    """ Gets `nuts` value for a given CONT """
+    if cont_d.get("nutses"):
+        return [d["lugar-codigo"] for d in cont_d["nutses"]]
+    else:
+        return None
+
+
+def get_cont_importe_sin_iva(cont_d):
+    """ Gets `cont_importe_sin_iva` value for a given CONT """
+    if cont_d.get("importeAdjudicacionSinIva"):
+        return cont_d["importeAdjudicacionSinIva"]
+    elif cont_d.get("presupuestoSinIva"):
+        return cont_d["presupuestoSinIva"]
+    else:
+        return None
+
+
+def get_cont_importe_con_iva(cont_d):
+    """ Gets `cont_importe_con_iva` value for a given CONT """
+    if cont_d.get("importeAdjudicacionConIva"):
+        return cont_d["importeAdjudicacionConIva"]
+    elif cont_d.get("presupuestoConIva"):
+        return cont_d["presupuestoConIva"]
+    else:
+        return None
 
 
 def parse_xml_field(node, path='', dict_obj=None):
+    """ Given a xml nested object recursively returns a plain dict object """
     if dict_obj is None:
         dict_obj = {}
     try:
@@ -152,10 +275,13 @@ def parse_xml_field(node, path='', dict_obj=None):
     return dict_obj
 
 
-def clean_xml_text(text):
-    # Clean line breaks and starting or ending spaces
+def clean_xml_text(text: str):
+    """ Format values according to their possible data type """
+
+    # Clean line breaks and leading or ending spaces
     text = text.strip().replace('\n', '').strip()
 
+    # If empty string return None
     if not text:
         return None
 
@@ -176,6 +302,13 @@ def clean_xml_text(text):
         return True
 
     return text
+
+
+def check_no_matched_key(cont_d):
+    """ Raises an exception if unknown keys are found in the dict object """
+    if not all([k in CONT_KNOWN_KEYS for k in cont_d]):
+        unknown_keys = set(cont_d.keys()) - set(CONT_KNOWN_KEYS)
+        raise KeyError(f"The following concepts are not under known cont-keys: {unknown_keys}")
 
 
 if __name__ == "__main__":
