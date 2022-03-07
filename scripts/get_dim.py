@@ -29,6 +29,7 @@ DATA_PATH = os.path.join(os.getcwd(), '..', 'data', SCOPE)
 
 
 def get_nuts_dim():
+    """ Fetches and stores `nuts` dimension """
     nuts_list = requests.get(NUTS_DIM_URL).json()
     filepath = os.path.join(DATA_PATH, '_'.join((TIME_STAMP, 'nuts_dimension.jsonl')))
     with open(filepath, 'w', encoding='utf8') as file:
@@ -37,6 +38,7 @@ def get_nuts_dim():
 
 
 def get_cpv_dim():
+    """ Fetches and stores `cpv` dimension """
     cpv_list = requests.get(CPV_DIM_URL).json()
     filepath = os.path.join(DATA_PATH, '_'.join((TIME_STAMP, 'cpv_dimension.jsonl')))
     with open(filepath, 'w', encoding='utf8') as file:
@@ -48,6 +50,7 @@ def get_cpv_dim():
 
 
 def get_pais_dim():
+    """ Fetches and stores `pais` dimension """
     pais_list = requests.get(PAIS_DIM_URL).json()
     filepath = os.path.join(DATA_PATH, '_'.join((TIME_STAMP, 'pais_dimension.jsonl')))
     with open(filepath, 'w', encoding='utf8') as file:
@@ -58,6 +61,7 @@ def get_pais_dim():
 
 
 def get_tipoact_dim():
+    """ Fetches and stores `tipoact` dimension """
     tipoact_list = requests.get(TIPOACT_DIM_URL).json()
     filepath = os.path.join(DATA_PATH, '_'.join((TIME_STAMP, 'tipoact_dimension.jsonl')))
     with open(filepath, 'w', encoding='utf8') as file:
@@ -69,6 +73,7 @@ def get_tipoact_dim():
 
 
 def get_categoria_dim():
+    """ Fetches and stores `categoria` dimension """
     categoria_list = requests.get(CATEGORIA_DIM_URL).json()
     filepath = os.path.join(DATA_PATH, '_'.join((TIME_STAMP, 'categoria_dimension.jsonl')))
     with open(filepath, 'w', encoding='utf8') as file:
@@ -78,6 +83,7 @@ def get_categoria_dim():
 
 
 def get_subgrupo_dim():
+    """ Fetches and stores `subgrupo` dimension """
     subgrupo_list = requests.get(SUBGRUPO_DIM_URL).json()
     filepath = os.path.join(DATA_PATH, '_'.join((TIME_STAMP, 'subgrupo_dimension.jsonl')))
     with open(filepath, 'w', encoding='utf8') as file:
@@ -91,6 +97,7 @@ def get_subgrupo_dim():
 
 
 def get_grupo_dim():
+    """ Fetches and stores `grupo` dimension """
     grupo_list = requests.get(GRUPO_DIM_URL).json()
     filepath = os.path.join(DATA_PATH, '_'.join((TIME_STAMP, 'grupo_dimension.jsonl')))
     with open(filepath, 'w', encoding='utf8') as file:
