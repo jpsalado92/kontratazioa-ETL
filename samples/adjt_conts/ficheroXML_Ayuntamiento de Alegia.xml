@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<contratosOpenData xmlns="com/ejie/ac70a/xml/opendata">
+    <contratoOpenData>
+        <objetoContratoEs>Limpieza de edificios municipales.</objetoContratoEs>
+        <objetoContratoEu>Udal eraikinen garbiketa.</objetoContratoEu>
+        <codContrato>A2019077440_00000000000000000000001</codContrato>
+        <adjudicatario>
+            <identificacion>B39023601</identificacion>
+            <razonSocial>SAMSIC IBERIA, S.L.U.</razonSocial>
+        </adjudicatario>
+        <estadoContrato>
+            <descripcionEs>Ejecución</descripcionEs>
+            <descripcionEu>Betetzea</descripcionEu>
+        </estadoContrato>
+        <tipoContrato>
+            <descripcionEs>Servicios</descripcionEs>
+            <descripcionEu>Zerbitzuak</descripcionEu>
+        </tipoContrato>
+        <estadoTramitacion>
+            <descripcionEs>Formalizado / En ejecución</descripcionEs>
+            <descripcionEu>Formalizatuta / Gauzatzen</descripcionEu>
+        </estadoTramitacion>
+        <procedimientoAdjudicacion>
+            <descripcionEs>Abierto</descripcionEs>
+            <descripcionEu>Irekia</descripcionEu>
+        </procedimientoAdjudicacion>
+        <criterioAdjudicacion>
+            <descripcionEs>Pluralidad de criterios</descripcionEs>
+            <descripcionEu>Hainbat irizpide</descripcionEu>
+        </criterioAdjudicacion>
+        <poderAdjudicador>
+            <descripciones>
+                <descripcionEs>Ayuntamiento de Alegia</descripcionEs>
+                <descripcionEu>Alegiakoko Udala</descripcionEu>
+            </descripciones>
+            <tipoAdministracion/>
+            <tipoAdministracionLocal/>
+        </poderAdjudicador>
+        <entidadImpulsora>
+            <descripcionEs>Ayuntamiento de Alegia</descripcionEs>
+            <descripcionEu>Alegiako Udala</descripcionEu>
+        </entidadImpulsora>
+        <organoContratacion>
+            <descripcionEs>Alcalde</descripcionEs>
+            <descripcionEu>Alkatea</descripcionEu>
+        </organoContratacion>
+        <lugarEjecucionEuropea>TRUE</lugarEjecucionEuropea>
+        <nutses>
+            <lugar>
+                <codigo>ES212</codigo>
+                <principal>FALSE</principal>
+                <descripcionEs>Gipuzkoa</descripcionEs>
+                <descripcionEu>Gipuzkoa</descripcionEu>
+            </lugar>
+        </nutses>
+        <fechaAdjudicacion>2020-01-30</fechaAdjudicacion>
+        <fechaFirma>2020-02-17</fechaFirma>
+        <duracionContrato>
+            <duracion>24</duracion>
+            <tipoDuracion>
+                <descripcionEs>Meses</descripcionEs>
+                <descripcionEu>Hilabeteak</descripcionEu>
+            </tipoDuracion>
+        </duracionContrato>
+        <importeAdjudicacionSinIva>70300</importeAdjudicacionSinIva>
+        <importeAdjudicacionConIva>85063</importeAdjudicacionConIva>
+        <fechaFinContrato>2022-01-30</fechaFinContrato>
+        <plurianual>FALSE</plurianual>
+        <revisionPrecios>FALSE</revisionPrecios>
+        <clausulasEspeciales>
+            <clausulaEspecial>
+                <descripciones>
+                    <descripcionEs>Sociales</descripcionEs>
+                    <descripcionEu>Gizarte arlokoak</descripcionEu>
+                </descripciones>
+                <lugaresAplicacion>
+                    <lugarAplicacion>
+                        <descripciones>
+                            <descripcionEs>Criterios de Adjudicación</descripcionEs>
+                            <descripcionEu>Esleipen Irizpideak</descripcionEu>
+                        </descripciones>
+                        <seleccionado>TRUE</seleccionado>
+                    </lugarAplicacion>
+                </lugaresAplicacion>
+            </clausulaEspecial>
+        </clausulasEspeciales>
+        <reservadoTalleres>FALSE</reservadoTalleres>
+        <ejecucionProgramaEmpleo>FALSE</ejecucionProgramaEmpleo>
+        <obligIndiProfAsig>FALSE</obligIndiProfAsig>
+        <cpv>
+            <codCPV>90000000-7</codCPV>
+            <descripciones>
+                <descripcionEs>Servicios de alcantarillado, basura, limpieza y medio ambiente</descripcionEs>
+                <descripcionEu>Estolderia, zabor, garbiketa eta ingurumeneko zerbitzuak</descripcionEu>
+            </descripciones>
+        </cpv>
+        <divisionLotes>FALSE</divisionLotes>
+        <publicidad>TRUE</publicidad>
+        <fechaPublicacion>2020-03-04</fechaPublicacion>
+        <presupuestoSinIva>73300</presupuestoSinIva>
+        <presupuestoConIva>88693</presupuestoConIva>
+        <ivas>
+            <iva>
+                <descripciones>
+                    <descripcionEs>21 %, tipo de IVA general</descripcionEs>
+                    <descripcionEu>21 %, BEZaren tasa orokorra</descripcionEu>
+                </descripciones>
+            </iva>
+        </ivas>
+        <numeroLicitadores>2</numeroLicitadores>
+        <ute>TRUE</ute>
+        <numeroEmpresasInvitadas>0</numeroEmpresasInvitadas>
+    </contratoOpenData>
+</contratosOpenData>
