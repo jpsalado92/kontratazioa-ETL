@@ -19,9 +19,17 @@ Useful resources:
 
     · Sample detail url (v1):
     https://www.contratacion.euskadi.eus/w32-kpeperfi/es/contenidos/poder_adjudicador/poder443/es_doc/es_arch_poder443.html
+    https://www.contratacion.euskadi.eus/w32-kpeperfi/es/contenidos/poder_adjudicador/poder44/es_doc/es_arch_poder44.html
 
     · Sample detail url (v2):
     https://www.contratacion.euskadi.eus/w32-kpeperfi/es/contenidos/poder_adjudicador/poder24519/es_doc/index.html
+
+Other available resources from xml document:
+    · CPV
+    · Medio propio
+    · Poderes adjudicadores
+    · IICS
+    · Órgano de recurso
 """
 import json
 import os
@@ -31,7 +39,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from utils import del_none, strip_dict
-
+import logging
 SCOPE = "poderes_adjudicadores"
 DATA_PATH = os.path.join(os.getcwd(), '..', 'data', SCOPE)
 TIME_STAMP = datetime.now().strftime("%Y%m%d")
@@ -47,6 +55,7 @@ def get_pa_dict_list() -> list:
                              "autocompleteObtenerPoderes?q= "
     pa_json = requests.get(pa_list_url).json()
     pas = [strip_dict(del_none(pa)) for pa in pa_json]
+    logging.info(f"Number of PAs fetched: {len(pas)} ")
     return pas
 
 
