@@ -1,5 +1,5 @@
+import logging
 import time
-
 from datetime import date
 
 
@@ -54,16 +54,16 @@ def retry(times, exceptions, sleep=5):
 
     def decorator(func):
         def newfn(*args, **kwargs):
-            attempt = 0
-            while attempt < times:
+            attempt = 1
+            while attempt < times + 1:
                 try:
                     return func(*args, **kwargs)
                 except exceptions:
-                    print(f'Exception thrown when attempting to run "{func.__name__}",'
-                          f'attempt {attempt} of {times} with kwargs: {kwargs}')
+                    logging.warning(f'Exception thrown when attempting to run "{func.__name__}",'
+                                    f'attempt {attempt} of {times} with kwargs: {kwargs}')
                     time.sleep(sleep)
                     attempt += 1
-            return func(*args, **kwargs)
+            return 0
 
         return newfn
 
@@ -77,6 +77,95 @@ def strip_dict(d):
     except AttributeError:
         raise
     return d
+
+
+def check_no_matched_key(cont_d, known_keys):
+    """ Raises an exception if unknown keys are found in the dict object """
+    if not all([k in known_keys for k in cont_d]):
+        unknown_keys = set(cont_d.keys()) - set(known_keys)
+        raise KeyError(f"The following concepts are not under known cont-keys: {unknown_keys}")
+
+
+def clean_xml_text(text: str):
+    """ Format values according to their possible data type """
+
+    # Clean line breaks and leading or ending spaces
+    text = text.strip().replace('\n', '').strip()
+
+    # If empty string return None
+    if not text:
+        return None
+
+    # Handle integers and numbers
+    try:
+        if '_' not in text:
+            if '.' in text:
+                return float(text)
+            else:
+                return int(text)
+    except:
+        pass
+
+    # Handle boolean values
+    if text == "FALSE":
+        return False
+    elif text == "TRUE":
+        return True
+
+    return text
+
+
+def parse_xml_field(node, path='', dict_obj=None, list_fields=[], pref2remove=[]):
+    """
+    Given a `CONT` `.xml` nested object, recursively returns a plain dict object
+    """
+    if dict_obj is None:
+        dict_obj = {}
+    try:
+        node_text = clean_xml_text(node.text)
+    except:
+        node_text = None
+
+    node_tag = node.tag
+    for pref in pref2remove:
+        node_tag = node_tag.replace(pref, '')
+
+    if path:
+        new_path = '-'.join((path, node_tag))
+    else:
+        new_path = node_tag
+
+    if node_tag in list_fields:
+        container = []
+        for child in node:
+            dd = {}
+            parse_xml_field(child, '', dd, list_fields, pref2remove)
+            container.append(dd.copy())
+        dict_obj[new_path] = container.copy()
+
+    else:
+        if node_text:
+            if new_path in dict_obj:
+                print(new_path)
+                raise
+            else:
+                dict_obj[new_path] = node_text
+
+        for child in node:
+            parse_xml_field(child, new_path, dict_obj, list_fields, pref2remove)
+
+    return dict_obj
+
+
+def get_key(dict_obj, possible_keys):
+    for key in possible_keys:
+        if dict_obj.get(key):
+            return dict_obj[key]
+    return None
+
+
+def to_caps_string(text):
+    return str(text).upper().strip()
 
 
 if __name__ == "__main__":
