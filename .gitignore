@@ -1,7 +1,5 @@
 .archive/*
 .idea/*
 data/*
-TODO.txt
-README.md
 *.pyc
 /secrets/
