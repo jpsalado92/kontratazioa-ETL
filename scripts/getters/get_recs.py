@@ -25,7 +25,7 @@ from datetime import datetime
 
 import requests
 
-from utils import del_none
+from ..utils.utils import del_none
 
 SCOPE = 'recursos'
 DATA_PATH = os.path.join(os.getcwd(), '../..', 'data', SCOPE)
