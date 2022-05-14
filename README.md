@@ -2,6 +2,11 @@
 Repositorio para la explotación de datos de la plataforma de contratos del Gobierno Vasco.
 
 ## Referencias
+
+### Documentación
+* [Google Doc del proyecto](https://docs.google.com/spreadsheets/d/1jkx4ch6vbQ53eBq9ynqes77A3XeRixvy5XjodLBsM64/edit#gid=0)
+* [Google Sheet del proyecto](https://docs.google.com/document/d/1OdTwPDx-71mdanE1MOIooJCz6b_lhkKnfqzCxITYvEE/edit)
+
 ### contratacion.euskadi.eus
 * [Información general sobre clasificación de empresas](https://www.contratacion.euskadi.eus/informacion-general-clasificacion-empresas/w32-kpeclasi/es/)
 * [Formulario de búsqueda de empresas clasificadas](https://www.contratacion.euskadi.eus/w32-kpesimpc/es/ac71aBusquedaRegistrosWar/empresas/busqueda)

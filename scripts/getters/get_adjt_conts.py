@@ -98,12 +98,13 @@ CONT_KNOWN_KEYS = [
 
 
 @log.start_end
-def get_cont_file(operation_date, path):
+def get_cont_file(scope_path):
     """
     Parses and cleans raw CONT `.xml` data and stores it in a CONT `.jsonl` file
     """
-    with open(os.path.join(path, operation_date, SCOPE, f"contratos.jsonl"), 'w', encoding='utf-8') as jsonl:
-        raw_pa_conts_path = os.path.join(path, operation_date, SCOPE, 'raw_pa_conts')
+    jsonl_path = os.path.join(scope_path, f"contratos.jsonl")
+    with open(jsonl_path, 'w', encoding='utf-8') as jsonl:
+        raw_pa_conts_path = os.path.join(scope_path, 'raw_pa_conts')
         # Iterating through every CONT directory
         for dirname in os.listdir(raw_pa_conts_path):
             dir_path = os.path.join(raw_pa_conts_path, dirname)
@@ -112,6 +113,7 @@ def get_cont_file(operation_date, path):
 
             # Iterating through every CONT in a given `.xml` file
             if len(os.listdir(dir_path)) != 2:
+                logging.info(f"Missing files for {dirname}")
                 continue
 
             for xml_cont in ET.parse(os.path.join(dir_path, dirname + '.xml')).getroot():
@@ -127,6 +129,7 @@ def get_cont_file(operation_date, path):
                 utils.check_no_matched_key(parsed_cont_d, CONT_KNOWN_KEYS)
                 clean_cont = get_clean_cont(parsed_cont_d)
                 jsonl.write(json.dumps(clean_cont, ensure_ascii=False) + '\n')
+    return jsonl_path
 
 
 def get_clean_cont(cont_d):
@@ -216,7 +219,7 @@ def get_clean_cont(cont_d):
 
 
 @log.start_end
-def get_raw_cont_files(operation_date, path):
+def get_raw_cont_files(scope_path):
     """ Fetch and store `.xml` and `.json` ADJT CONT data locally """
     pa_list = get_pa_dict_list()
     for pa_d in pa_list:
@@ -230,7 +233,7 @@ def get_raw_cont_files(operation_date, path):
             cont_ext_id = str(int(cont['idInformeOpendata']))
             # ADJT CONT internal id, as for this project
             cont_int_id = f"{int(pa_cod_perfil):05d}_{cont_date}_{cont_ext_id}_{cont_mod_date}"
-            cont_fpath = os.path.join(path, operation_date, SCOPE, 'raw_pa_conts', cont_int_id)
+            cont_fpath = os.path.join(scope_path, 'raw_pa_conts', cont_int_id)
 
             # Check if data already exists (both the `.json` file and the `.xml` file)
             if os.path.isdir(cont_fpath) and len(os.listdir(cont_fpath)) == 2:
@@ -298,3 +301,12 @@ def get_xml_file(url, cont_path, cont_id):
             if file.endswith('.xml'):
                 zipfile.extract(file, cont_path)
                 os.rename(os.path.join(cont_path, file.replace('"', '_')), xml_fpath)
+
+
+def get_adjt_conts(operation_date, path):
+    scope_path = os.path.join(path, operation_date, SCOPE)
+    # Get adjt_conts data
+    get_raw_cont_files(scope_path)
+    # Consolidate adjt_conts data
+    jsonl_path = get_cont_file(scope_path)
+    return jsonl_path

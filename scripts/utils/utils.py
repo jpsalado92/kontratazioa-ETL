@@ -63,6 +63,7 @@ def retry(times, exceptions, sleep=5):
                                     f'attempt {attempt} of {times} with kwargs: {kwargs}')
                     time.sleep(sleep)
                     attempt += 1
+            logging.warning(f'Unable to succesfully run "{func.__name__}" after {times} attempts. Params: ({kwargs})')
             return 0
 
         return newfn

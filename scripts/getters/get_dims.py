@@ -25,7 +25,7 @@ GRUPO_DIM_URL = BASE_URL + "ac71aBusquedaRegistrosWar/comboMaestros/findGrupoCat
 
 SCOPE = 'dimensions'
 
-DATA_PATH = os.path.join(os.getcwd(), '..', 'data', SCOPE)
+DATA_PATH = os.path.join(os.getcwd(), '../..', 'data', SCOPE)
 
 
 def get_nuts_dim():

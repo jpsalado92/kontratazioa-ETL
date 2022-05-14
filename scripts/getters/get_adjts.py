@@ -21,7 +21,7 @@ import requests
 from utils import del_none, retry
 
 SCOPE = 'adjudicatarios'
-DATA_PATH = os.path.join(os.getcwd(), '..', 'data', SCOPE)
+DATA_PATH = os.path.join(os.getcwd(), '../..', 'data', SCOPE)
 TIME_STAMP = datetime.now().strftime("%Y%m%d")
 BASE_URL = "https://www.contratacion.euskadi.eus/"
 ADJT_URL = BASE_URL + "ac70cPublicidadWar/busquedaAnuncios/autocompleteAdjudicatarios?q="

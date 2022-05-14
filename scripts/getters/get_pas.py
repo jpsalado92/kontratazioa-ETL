@@ -41,7 +41,7 @@ from bs4 import BeautifulSoup
 from utils import del_none, strip_dict
 import logging
 SCOPE = "poderes_adjudicadores"
-DATA_PATH = os.path.join(os.getcwd(), '..', 'data', SCOPE)
+DATA_PATH = os.path.join(os.getcwd(), '../..', 'data', SCOPE)
 TIME_STAMP = datetime.now().strftime("%Y%m%d")
 BASE_URL = "https://www.contratacion.euskadi.eus/"
 PA_DETAIL_URL = BASE_URL + "w32-kpeperfi/es/contenidos/poder_adjudicador/"

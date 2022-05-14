@@ -28,7 +28,7 @@ import requests
 from utils import del_none
 
 SCOPE = 'recursos'
-DATA_PATH = os.path.join(os.getcwd(), '..', 'data', SCOPE)
+DATA_PATH = os.path.join(os.getcwd(), '../..', 'data', SCOPE)
 TIME_STAMP = datetime.now().strftime("%Y%m%d")
 BASE_URL = "https://www.contratacion.euskadi.eus/"
 REC_URL = BASE_URL + "y96aResolucionesWar/busqueda/buscarListado?R01HNoPortal=true"

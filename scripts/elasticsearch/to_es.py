@@ -6,7 +6,7 @@ from ssl import create_default_context
 import elasticsearch.helpers
 from elasticsearch import Elasticsearch
 
-SECRETS_PATH = os.path.join('..', 'secrets')
+SECRETS_PATH = os.path.join('../..', 'secrets')
 config = configparser.ConfigParser()
 config.read(os.path.join(SECRETS_PATH, "secrets.cfg"))
 
@@ -42,6 +42,6 @@ def stream_bulk(es, file, index_name):
 
 if __name__ == "__main__":
     es = connect_to_es()
-    file = os.path.join('..', 'data', 'contratos', '20220307_contratos.jsonl')
+    file = os.path.join('../..', 'data', 'contratos', '20220307_contratos.jsonl')
     index_name = "contratos2"
     stream_bulk(es, file, index_name)
