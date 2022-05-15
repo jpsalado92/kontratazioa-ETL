@@ -1,23 +1,7 @@
 """
-Functions for fetching and storing data related to `RECs` (recursos)
+Functions for fetching and storing data related to `rec` (appeals) objects
 from `www.contratación.euskadi.eus`
-
-Useful resources:
-
-    · REC General information:
-    https://www.contratacion.euskadi.eus/informacion-general-oarc/w32-kpeoarc/es/
-
-    · REC guidelines:
-    https://www.contratacion.euskadi.eus/normativa-oarc/w32-kpeoarc/es/
-
-    · REC register:
-    https://www.contratacion.euskadi.eus/w32-kpeoarc/es/y96aResolucionesWar/busqueda/listado?locale=es
-
-    · Sample:
-    https://www.contratacion.euskadi.eus/w32-kpeoarc/es/contenidos/resolucion_oarc/3_2015/es_def/index.shtml
-TODO: FORMAT OUTPUTS
 """
-
 
 import json
 import os
@@ -25,13 +9,12 @@ from datetime import datetime
 
 import requests
 
-from ..utils.utils import del_none
+from scripts.utils.utils import del_none
 
-SCOPE = 'recursos'
-DATA_PATH = os.path.join(os.getcwd(), '../..', 'data', SCOPE)
+SCOPE = 'rec'
+DATA_PATH = os.path.join(os.getcwd(), '..', '..', 'data', SCOPE)
 TIME_STAMP = datetime.now().strftime("%Y%m%d")
-BASE_URL = "https://www.contratacion.euskadi.eus/"
-REC_URL = BASE_URL + "y96aResolucionesWar/busqueda/buscarListado?R01HNoPortal=true"
+REC_URL = "https://www.contratacion.euskadi.eus/y96aResolucionesWar/busqueda/buscarListado?R01HNoPortal=true"
 
 
 def get_rec():
@@ -47,4 +30,5 @@ def get_rec():
 
 
 if __name__ == "__main__":
+    os.makedirs(DATA_PATH, exist_ok=True)
     get_rec()
