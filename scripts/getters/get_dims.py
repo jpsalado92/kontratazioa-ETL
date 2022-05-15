@@ -1,9 +1,6 @@
 """
-Functions for fetching and storing data related to `DIMs` (dimensions)
+Functions for fetching and storing dimensions-data related to tenders
 from `www.contratación.euskadi.eus`
-
-"codClas":"S" -> Servicio
-"codClas":"O" -> Obras
 """
 import json
 import os
@@ -11,7 +8,7 @@ from datetime import datetime
 
 import requests
 
-from utils import del_none, strip_dict
+from scripts.utils.utils import del_none, strip_dict
 
 TIME_STAMP = datetime.now().strftime("%Y%m%d")
 BASE_URL = "https://www.contratacion.euskadi.eus/"
@@ -25,7 +22,7 @@ GRUPO_DIM_URL = BASE_URL + "ac71aBusquedaRegistrosWar/comboMaestros/findGrupoCat
 
 SCOPE = 'dimensions'
 
-DATA_PATH = os.path.join(os.getcwd(), '../..', 'data', SCOPE)
+DATA_PATH = os.path.join(os.getcwd(), '..', '..', 'data', SCOPE)
 
 
 def get_nuts_dim():
@@ -97,7 +94,11 @@ def get_subgrupo_dim():
 
 
 def get_grupo_dim():
-    """ Fetches and stores `grupo` dimension """
+    """
+    Fetches and stores `grupo` dimension
+        codClas":"S" -> Servicio
+        codClas":"O" -> Obras
+    """
     grupo_list = requests.get(GRUPO_DIM_URL).json()
     filepath = os.path.join(DATA_PATH, '_'.join((TIME_STAMP, 'grupo_dimension.jsonl')))
     with open(filepath, 'w', encoding='utf8') as file:
@@ -107,6 +108,7 @@ def get_grupo_dim():
 
 
 if __name__ == "__main__":
+    os.makedirs(DATA_PATH, exist_ok=True)
     get_nuts_dim()
     get_cpv_dim()
     get_pais_dim()
