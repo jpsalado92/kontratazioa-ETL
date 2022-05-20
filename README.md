@@ -37,6 +37,9 @@ GNU GENERAL PUBLIC LICENSE
 * [Ejemplo ficha poder adjudicador (v1)](https://www.contratacion.euskadi.eus/w32-kpeperfi/es/contenidos/poder_adjudicador/poder44/es_doc/es_arch_poder44.html)
 * [Ejemplo ficha poder adjudicador (v2)](https://www.contratacion.euskadi.eus/w32-kpeperfi/es/contenidos/poder_adjudicador/poder24519/es_doc/index.html)
 
+#### Contratos [cont]
+* [Buscador de contratos](https://www.contratacion.euskadi.eus/ac70cPublicidadWar/busquedaContrato/filter)
+
 #### Adjudicatarios [bidder]
 * [Registro de Licitadores y Empresas Clasificadas](https://www.contratacion.euskadi.eus/informacion-general-registro-licitadores-empresas-clasificadas/w32-kperoc/es/)
 * [Formulario de Búsqueda de Empresas](https://www.contratacion.euskadi.eus/w32-kperoc/es/ac71aBusquedaRegistrosWar/empresas/busqueda)
