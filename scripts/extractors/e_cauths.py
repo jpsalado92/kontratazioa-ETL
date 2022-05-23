@@ -15,12 +15,13 @@ import os
 from datetime import datetime
 
 import requests
-from scripts.utils.utils import del_none, strip_dict
-from scripts.parsers.parse_cauth import parse_htmls
 
-SCOPE = "cauth"
-DATA_PATH = os.path.join(os.getcwd(), '..', '..', 'data', SCOPE)
+from scripts.transformers.t_cauth import parse_htmls
+from scripts.utils.utils import del_none, strip_dict
+
+SCOPE = "cauths"
 TIME_STAMP = datetime.now().strftime("%Y%m%d")
+DATA_PATH = os.path.join(os.getcwd(), '..', '..', 'data', TIME_STAMP, SCOPE)
 BASE_URL = "https://www.contratacion.euskadi.eus/"
 CAUTH_DETAIL_URL = BASE_URL + "w32-kpeperfi/es/contenidos/poder_adjudicador/"
 CAUTH_DETAIL_URL_V1 = CAUTH_DETAIL_URL + "poder{codPerfil}/es_doc/es_arch_poder{codPerfil}.html"
@@ -47,7 +48,7 @@ def get_cauth_dict() -> dict:
 
 def get_raw_cauth_detail():
     """ Fetches and stores raw html data from cauths listed with `get_cauth_dict_list()` """
-    path = os.path.join(DATA_PATH, 'raw_html', TIME_STAMP)
+    path = os.path.join(DATA_PATH, 'raw_html')
     try:
         os.makedirs(path, exist_ok=False)
         for cauth_d in get_cauth_dict_list():
@@ -63,8 +64,6 @@ def get_raw_cauth_detail():
                 raw_html = requests.get(v2_url).content.decode('ISO-8859-1')
                 version = "v2"
 
-            # Manage local directory path
-            path = os.path.join(DATA_PATH, 'raw_html', TIME_STAMP)
             # Manage local filepath
             filename = '_'.join((version, cauth_cod_perfil)) + '.html'
             filepath = os.path.join(path, filename)
@@ -75,10 +74,8 @@ def get_raw_cauth_detail():
     except:
         logging.info(f"Data available at {path}")
 
-    return path
-
 
 if __name__ == "__main__":
     os.makedirs(DATA_PATH, exist_ok=True)
-    data_path = get_raw_cauth_detail()
-    parse_htmls(data_path=data_path, cauth_dict=get_cauth_dict())
+    get_raw_cauth_detail()
+    parse_htmls(data_path=DATA_PATH, cauth_dict=get_cauth_dict())

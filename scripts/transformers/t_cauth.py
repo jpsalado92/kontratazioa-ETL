@@ -7,7 +7,6 @@ There are many fields that are not parsed from the raw_html files such as:
 """
 import json
 import logging
-
 import os
 
 from bs4 import BeautifulSoup
@@ -21,13 +20,13 @@ def parse_htmls(data_path: os.PathLike, cauth_dict: dict):
     :param data_path: Date used to indicate the location of raw html data. '20220225' like format
     :param cauth_dict: Dict built with `get_cauth_dict()`
     """
-    time_stamp = os.path.basename(data_path)
-    cfilename = os.path.join(data_path, '..', '..', '_'.join((time_stamp, 'cauth.jsonl')))
+    cfilename = os.path.join(data_path, 'cauth.jsonl')
     with open(cfilename, mode='w', encoding='utf8') as cfile:
-        for filename in os.listdir(data_path):
+        raw_data_path = os.path.join(data_path, 'raw_html')
+        for filename in os.listdir(raw_data_path):
 
             # Open raw html content
-            with open(os.path.join(data_path, filename), mode='r', encoding='ISO-8859-1') as file:
+            with open(os.path.join(raw_data_path, filename), mode='r', encoding='ISO-8859-1') as file:
                 html_file = file.read()
 
             # Get just the data part

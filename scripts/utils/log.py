@@ -24,4 +24,5 @@ def start_end(func):
         value = func(args, **kwargs)
         logging.info("End: " + func.__name__)
         return value
+
     return wrapper

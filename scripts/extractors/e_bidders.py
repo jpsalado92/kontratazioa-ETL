@@ -8,12 +8,13 @@ import os
 from datetime import datetime
 
 import requests
-from scripts.normalizers.norm_bidder import norm_cbidder
+
+from scripts.transformers.t_bidder import norm_cbidder
 from scripts.utils.utils import del_none, retry
 
 SCOPE = 'bidders'
-DATA_PATH = os.path.join(os.getcwd(), '..', '..', 'data', SCOPE)
 TIME_STAMP = datetime.now().strftime("%Y%m%d")
+DATA_PATH = os.path.join(os.getcwd(), '..', '..', 'data', TIME_STAMP, SCOPE)
 BIDDER_URL = "https://www.contratacion.euskadi.eus/ac70cPublicidadWar/busquedaAnuncios/autocompleteAdjudicatarios?q="
 CBIDDER_URL = "https://www.contratacion.euskadi.eus/w32-kpesimpc/es/ac71aBusquedaRegistrosWar/empresas/filter"
 CBIDDER_DETAIL_URL = "https://www.contratacion.euskadi.eus/ac71aBusquedaRegistrosWar/empresas/find"
@@ -26,7 +27,7 @@ def get_bidders():
     """
     bidder_json = requests.get(BIDDER_URL).json()
     # Manage local directory path
-    filename = os.path.join(DATA_PATH, '_'.join((TIME_STAMP, SCOPE + '.jsonl')))
+    filename = os.path.join(DATA_PATH, SCOPE + '.jsonl')
     with open(filename, 'w', encoding='utf8') as file:
         for bidder in bidder_json:
             file.write(json.dumps(del_none(bidder), ensure_ascii=False) + '\n')
@@ -44,7 +45,7 @@ def get_detailed_cbidders():
     if int(r_json["records"]) > get_rows:
         print("More CBIDDER records than asked for!!")
 
-    cfilename = os.path.join(DATA_PATH, '_'.join((TIME_STAMP, SCOPE, 'clasificados.jsonl')))
+    cfilename = os.path.join(DATA_PATH, '_'.join((SCOPE, 'clasificados.jsonl')))
     with open(cfilename, 'w', encoding='utf8') as cfile:
         for bidder_c in r_json["rows"]:
             bidder_c_detail = get_cbidder_detail(bidder_c["nEmp"])

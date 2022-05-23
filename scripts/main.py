@@ -2,7 +2,7 @@ import logging
 import os
 from datetime import datetime
 
-import log
+from scripts.utils import log
 from get_conts_s1 import get_conts_s1
 
 DATA_PATH = os.path.join(os.getcwd(), '..', 'data')

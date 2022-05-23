@@ -39,6 +39,8 @@ GNU GENERAL PUBLIC LICENSE
 
 #### Contratos [cont]
 * [Buscador de contratos](https://www.contratacion.euskadi.eus/ac70cPublicidadWar/busquedaContrato/filter)
+* [Buscador de informes Open Data](https://www.contratacion.euskadi.eus/w32-kpetrans/es/ac70cPublicidadWar/busquedaInformesOpenData?locale=es):
+A través de este recurso, uno puede descargar el listado de contratos promovidos por un poder adjudicador con distintos adjudicatarios en un año determinado.
 
 #### Adjudicatarios [bidder]
 * [Registro de Licitadores y Empresas Clasificadas](https://www.contratacion.euskadi.eus/informacion-general-registro-licitadores-empresas-clasificadas/w32-kperoc/es/)

@@ -2,9 +2,9 @@ version: "2.2"
 
 services:
   setup:
-    image: docker.elastic.co/elasticsearch/elasticsearch:${STACK_VERSION}
+    image: docker.elastic.co/loaders/loaders:${STACK_VERSION}
     volumes:
-      - certs:/usr/share/elasticsearch/config/certs
+      - certs:/usr/share/loaders/config/certs
     user: "0"
     command: >
       bash -c '
@@ -66,10 +66,10 @@ services:
     depends_on:
       setup:
         condition: service_healthy
-    image: docker.elastic.co/elasticsearch/elasticsearch:${STACK_VERSION}
+    image: docker.elastic.co/loaders/loaders:${STACK_VERSION}
     volumes:
-      - certs:/usr/share/elasticsearch/config/certs
-      - esdata01:/usr/share/elasticsearch/data
+      - certs:/usr/share/loaders/config/certs
+      - esdata01:/usr/share/loaders/data
     ports:
       - ${ES_PORT}:9200
     environment:
@@ -109,10 +109,10 @@ services:
   es02:
     depends_on:
       - es01
-    image: docker.elastic.co/elasticsearch/elasticsearch:${STACK_VERSION}
+    image: docker.elastic.co/loaders/loaders:${STACK_VERSION}
     volumes:
-      - certs:/usr/share/elasticsearch/config/certs
-      - esdata02:/usr/share/elasticsearch/data
+      - certs:/usr/share/loaders/config/certs
+      - esdata02:/usr/share/loaders/data
     environment:
       - node.name=es02
       - cluster.name=${CLUSTER_NAME}
@@ -149,10 +149,10 @@ services:
   es03:
     depends_on:
       - es02
-    image: docker.elastic.co/elasticsearch/elasticsearch:${STACK_VERSION}
+    image: docker.elastic.co/loaders/loaders:${STACK_VERSION}
     volumes:
-      - certs:/usr/share/elasticsearch/config/certs
-      - esdata03:/usr/share/elasticsearch/data
+      - certs:/usr/share/loaders/config/certs
+      - esdata03:/usr/share/loaders/data
     environment:
       - node.name=es03
       - cluster.name=${CLUSTER_NAME}
