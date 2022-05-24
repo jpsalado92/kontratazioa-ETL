@@ -1,3 +1,4 @@
+import hashlib
 import logging
 import time
 from datetime import date
@@ -85,3 +86,9 @@ def check_no_matched_key(cont_d, known_keys):
     if not all([k in known_keys for k in cont_d]):
         unknown_keys = set(cont_d.keys()) - set(known_keys)
         raise KeyError(f"The following concepts are not under known cont-keys: {unknown_keys}")
+
+
+def get_hash(s):
+    h = hashlib.sha3_512()
+    h.update(bytes(s, 'utf-8'))
+    return h.hexdigest()

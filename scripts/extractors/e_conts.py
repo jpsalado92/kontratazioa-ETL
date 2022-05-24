@@ -43,7 +43,7 @@ def get_cont_file(scope_path):
     """
     Parses and cleans raw CONT `.xml` data and stores it in a CONT `.jsonl` file
     """
-    jsonl_path = os.path.join(scope_path, f"conts.jsonl")
+    jsonl_path = os.path.join(scope_path, f"{SCOPE}.jsonl")
     with open(jsonl_path, 'w', encoding='utf-8') as jsonl:
         raw_cauth_conts_path = os.path.join(scope_path, 'raw_cauth_conts')
         # Iterating through every CONT directory
@@ -171,4 +171,4 @@ def get_conts(operation_date, path):
 if __name__ == "__main__":
     DATA_PATH = os.path.join(os.getcwd(), '..', '..', 'data')
     os.makedirs(DATA_PATH, exist_ok=True)
-    conts_jsonl_path = get_conts(operation_date=TIME_STAMP, path=DATA_PATH)
+    get_conts(operation_date=TIME_STAMP, path=DATA_PATH)
