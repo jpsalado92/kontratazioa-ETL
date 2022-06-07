@@ -81,7 +81,7 @@ async def write_one(file: IO, url: str, sem: Semaphore, **kwargs) -> None:
         html = await fetch_html(url=url, **kwargs)
         if not html:
             return None
-        async with aiofile.AIOFile(file, 'w', encoding='utf-8') as fl:
+        async with aiofile.AIOFile(file, 'w') as fl:
             await fl.write(html)
 
 
@@ -157,7 +157,7 @@ def get_tenders(operation_date, path):
         asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
     asyncio.run(get_tenders_xmls(urls))
     # Consolidate CONTs data
-    get_tenders_file(scope_path)
+    # get_tenders_file(scope_path)
 
 
 if __name__ == "__main__":
