@@ -1,8 +1,8 @@
 """
-Functions for fetching and storing data related to `cauth` (contracting authority) objects
+Functions for fetching and storing data related to `cauth` (contracting authority) entities
 from `www.contratación.euskadi.eus`
 
-Exceptions:
+Possible exceptions:
 
 PA_EXCEPTIONS = ["311", "231", "24446", "24589"]
     "codPerfil": "311" is a mistake, it should be "codPerfil": "612"
@@ -46,14 +46,13 @@ def get_cauth_dict() -> dict:
     return cauths_d
 
 
-def get_raw_cauth_detail():
+def get_raw_cauth_htmls():
     """ Fetches and stores raw html data from cauths listed with `get_cauth_dict_list()` """
     path = os.path.join(DATA_PATH, 'raw_html')
     try:
         os.makedirs(path, exist_ok=False)
         for cauth_d in get_cauth_dict_list():
             cauth_cod_perfil = cauth_d['codPerfil']
-
             # Store raw html content
             v1_url = CAUTH_DETAIL_URL_V1.format(codPerfil=cauth_cod_perfil)
             raw_html = requests.get(v1_url).content.decode('ISO-8859-1')
@@ -63,11 +62,9 @@ def get_raw_cauth_detail():
                 v2_url = CAUTH_DETAIL_URL_V2.format(codPerfil=cauth_cod_perfil)
                 raw_html = requests.get(v2_url).content.decode('ISO-8859-1')
                 version = "v2"
-
             # Manage local filepath
             filename = '_'.join((version, cauth_cod_perfil)) + '.html'
             filepath = os.path.join(path, filename)
-
             # Store raw html
             with open(filepath, mode='w', encoding='ISO-8859-1') as file:
                 file.write(raw_html)
@@ -77,5 +74,5 @@ def get_raw_cauth_detail():
 
 if __name__ == "__main__":
     os.makedirs(DATA_PATH, exist_ok=True)
-    get_raw_cauth_detail()
+    get_raw_cauth_htmls()
     parse_htmls(data_path=DATA_PATH, cauth_dict=get_cauth_dict())

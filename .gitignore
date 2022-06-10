@@ -1,5 +1,21 @@
+# Exclude archived project files
 .archive/*
+
+# Exclude Pycharm data
 .idea/*
-data/*
+
+# Exclude pyc data
 *.pyc
+
+# Exclude secrets
 /secrets/
+
+# Exclude data directory
+data/*
+
+# Maintain data samples for cauth
+!data/samples/
+data/samples/*
+!data/samples/cauth/
+
+
