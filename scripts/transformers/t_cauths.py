@@ -11,17 +11,18 @@ import os
 
 from bs4 import BeautifulSoup
 
+from scripts.utils import log
 
-def parse_htmls(data_path: os.PathLike, cauth_dict: dict):
+
+@log.start_end
+def get_cauths_file(path: os.PathLike, cauths_dict):
     """
     Based on raw html data, generates a cauth
     consolidated jsonl file at DATA_PATH
-    :param data_path: Date used to indicate the location of raw html data. '20220225' like format
-    :param cauth_dict: Dict built with `get_cauth_dict()`
     """
-    cfilename = os.path.join(data_path, 'cauth.jsonl')
+    cfilename = os.path.join(path, 'cauths.jsonl')
     with open(cfilename, mode='w', encoding='utf8') as cfile:
-        raw_data_path = os.path.join(data_path, 'raw_html')
+        raw_data_path = os.path.join(path, 'raw_html')
         for filename in os.listdir(raw_data_path):
             # Open raw html content
             with open(os.path.join(raw_data_path, filename), mode='r', encoding='ISO-8859-1') as file:
@@ -34,7 +35,7 @@ def parse_htmls(data_path: os.PathLike, cauth_dict: dict):
                 continue
             # Construct a cauth dict with parsed data
             cauth_d = {}
-            parse_filename(filename, cauth_d, cauth_dict)
+            parse_filename(filename, cauth_d, cauths_dict)
             parsers = [
                 parse_url_official,
                 parse_url_logo,
@@ -251,4 +252,3 @@ def parse_url_logo(soup, cauth_d):
         cauth_d["url_logo"] = 'https://www.contratacion.euskadi.eus/' + soup.find('img', alt="Poder adjudicador")['src']
     except TypeError:
         logging.info(f"No logo available for {cauth_d['cod_perfil']}")
-

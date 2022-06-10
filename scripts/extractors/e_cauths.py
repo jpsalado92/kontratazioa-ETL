@@ -16,7 +16,8 @@ from datetime import datetime
 
 import requests
 
-from scripts.transformers.t_cauth import parse_htmls
+from scripts.transformers.t_cauths import get_cauths_file
+from scripts.utils import log
 from scripts.utils.utils import del_none, strip_dict
 
 SCOPE = "cauths"
@@ -46,9 +47,10 @@ def get_cauth_dict() -> dict:
     return cauths_d
 
 
-def get_raw_cauth_htmls():
+@log.start_end
+def get_raw_cauth_htmls(path):
     """ Fetches and stores raw html data from cauths listed with `get_cauth_dict_list()` """
-    path = os.path.join(DATA_PATH, 'raw_html')
+    path = os.path.join(path, 'raw_html')
     try:
         os.makedirs(path, exist_ok=False)
         for cauth_d in get_cauth_dict_list():
@@ -72,7 +74,12 @@ def get_raw_cauth_htmls():
         logging.info(f"Data available at {path}")
 
 
+@log.start_end
+def get_cauths(path):
+    os.makedirs(path, exist_ok=True)
+    get_raw_cauth_htmls(path)
+    get_cauths_file(path, get_cauth_dict())
+
+
 if __name__ == "__main__":
-    os.makedirs(DATA_PATH, exist_ok=True)
-    get_raw_cauth_htmls()
-    parse_htmls(data_path=DATA_PATH, cauth_dict=get_cauth_dict())
+    get_cauths(DATA_PATH)

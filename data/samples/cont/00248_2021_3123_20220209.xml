@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<contratosOpenData xmlns="com/ejie/ac70a/xml/opendata">
+    <contratoOpenData>
+        <objetoContratoEs>Servicios de telecomunicaciones</objetoContratoEs>
+        <objetoContratoEu>Servicios de telecomunicaciones</objetoContratoEu>
+        <codContrato>2020/003/074/07696_00000000000000000000001</codContrato>
+        <adjudicatario>
+            <identificacion>A48766695</identificacion>
+            <razonSocial>EUSKALTEL, S.A.</razonSocial>
+        </adjudicatario>
+        <estadoContrato>
+            <descripcionEs>Ejecución</descripcionEs>
+            <descripcionEu>Betetzea</descripcionEu>
+        </estadoContrato>
+        <tipoContrato>
+            <descripcionEs>Servicios</descripcionEs>
+            <descripcionEu>Zerbitzuak</descripcionEu>
+        </tipoContrato>
+        <estadoTramitacion>
+            <descripcionEs>Formalizado / En ejecución</descripcionEs>
+            <descripcionEu>Formalizatuta / Gauzatzen</descripcionEu>
+        </estadoTramitacion>
+        <procedimientoAdjudicacion>
+            <descripcionEs>Derivado de Acuerdo Marco</descripcionEs>
+            <descripcionEu>Esparru-akordiotik eratorria</descripcionEu>
+        </procedimientoAdjudicacion>
+        <poderAdjudicador>
+            <descripciones>
+                <descripcionEs>Ayuntamiento de Sondika</descripcionEs>
+                <descripcionEu>Sondikako Udala</descripcionEu>
+            </descripciones>
+            <tipoAdministracion/>
+            <tipoAdministracionLocal/>
+        </poderAdjudicador>
+        <entidadImpulsora>
+            <descripcionEs>Ayuntamiento de Sondika</descripcionEs>
+            <descripcionEu>Sondikako Udala</descripcionEu>
+        </entidadImpulsora>
+        <organoContratacion>
+            <descripcionEs>Alcalde</descripcionEs>
+            <descripcionEu>Alkatea</descripcionEu>
+        </organoContratacion>
+        <lugarEjecucionEuropea>TRUE</lugarEjecucionEuropea>
+        <nutses>
+            <lugar>
+                <codigo>ES213</codigo>
+                <principal>FALSE</principal>
+                <descripcionEs>Bizkaia</descripcionEs>
+                <descripcionEu>Bizkaia</descripcionEu>
+            </lugar>
+        </nutses>
+        <fechaAdjudicacion>2021-02-02</fechaAdjudicacion>
+        <fechaFirma>2021-02-02</fechaFirma>
+        <duracionContrato>
+            <duracion>36</duracion>
+            <tipoDuracion>
+                <descripcionEs>Meses</descripcionEs>
+                <descripcionEu>Hilabeteak</descripcionEu>
+            </tipoDuracion>
+        </duracionContrato>
+        <importeAdjudicacionSinIva>43687.82</importeAdjudicacionSinIva>
+        <importeAdjudicacionConIva>52862</importeAdjudicacionConIva>
+        <fechaFinContrato>2024-02-02</fechaFinContrato>
+        <plurianual>FALSE</plurianual>
+        <revisionPrecios>FALSE</revisionPrecios>
+        <clausulasEspeciales/>
+        <reservadoTalleres>FALSE</reservadoTalleres>
+        <ejecucionProgramaEmpleo>FALSE</ejecucionProgramaEmpleo>
+        <obligIndiProfAsig>FALSE</obligIndiProfAsig>
+        <cpv>
+            <codCPV>64200000-8</codCPV>
+            <descripciones>
+                <descripcionEs>Servicios de telecomunicaciones</descripcionEs>
+                <descripcionEu>Telekomunikazio-zerbitzuak</descripcionEu>
+            </descripciones>
+        </cpv>
+        <divisionLotes>FALSE</divisionLotes>
+        <publicidad>TRUE</publicidad>
+        <fechaPublicacion>2021-03-25</fechaPublicacion>
+        <presupuestoSinIva>43687.82</presupuestoSinIva>
+        <presupuestoConIva>52862.26</presupuestoConIva>
+        <ivas>
+            <iva>
+                <descripciones>
+                    <descripcionEs>21 %, tipo de IVA general</descripcionEs>
+                    <descripcionEu>21 %, BEZaren tasa orokorra</descripcionEu>
+                </descripciones>
+            </iva>
+        </ivas>
+        <numeroLicitadores>1</numeroLicitadores>
+        <ute>FALSE</ute>
+        <numeroEmpresasInvitadas>0</numeroEmpresasInvitadas>
+    </contratoOpenData>
+</contratosOpenData>

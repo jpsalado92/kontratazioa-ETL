@@ -1,7 +1,7 @@
 # samples/cauth
 
 ## Contenidos:
-### [cauth.jsonl](cauth.jsonl)
+### [cauths.jsonl](cauths.jsonl)
    * Documento de ejemplo que reúne toda la información referida a poderes adjudicadores.
    * Datos extraidos a fecha 2022/06/10.
    * Resultado de ejecutar el script [e_cauths.py](../../../scripts/extractors/e_cauths.py).

@@ -17,5 +17,6 @@ data/*
 !data/samples/
 data/samples/*
 !data/samples/cauth/
+!data/samples/cont/
 
 

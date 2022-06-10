@@ -92,3 +92,10 @@ def get_hash(s):
     h = hashlib.sha3_512()
     h.update(bytes(s, 'utf-8'))
     return h.hexdigest()
+
+
+def cast_bool(val):
+    if val in ("false", "False", False):
+        return False
+    elif val in ("True", "true", True):
+        return True
