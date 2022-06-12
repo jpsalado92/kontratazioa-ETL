@@ -8,7 +8,7 @@ from datetime import datetime
 
 import requests
 
-from scripts.utils.utils import del_none, strip_dict
+from scripts.transformers.t_utils import del_none, strip_dict
 
 TIME_STAMP = datetime.now().strftime("%Y%m%d")
 BASE_URL = "https://www.contratacion.euskadi.eus/"

@@ -4,7 +4,7 @@ import os
 import xml.etree.ElementTree as ET
 from datetime import datetime
 
-import scripts.utils.utils as utils
+import scripts.transformers.t_utils as utils
 from scripts.utils import log
 
 # Fields from the `.xml` document that may contain array-ed elements
@@ -53,7 +53,7 @@ def get_conts_file(path):
     jsonl_path = os.path.join(path, "conts.jsonl")
     with open(jsonl_path, 'w', encoding='utf-8') as jsonl:
         raw_cauth_conts_path = os.path.join(path, 'raw_cauth_conts')
-        # Iterating through every CONT directory
+        # Iterating through every CONT xml
         for xml_fname in os.listdir(raw_cauth_conts_path):
             cauth_cod_perfil, od_report_year, od_report_id, od_report_date_modified = xml_fname.removesuffix(
                 '.xml').split('_')

@@ -18,7 +18,7 @@ import requests
 
 import scripts.utils.utils as utils
 from e_cauths import get_cauth_dict_list
-from scripts.transformers.t_cont import get_conts_file
+from scripts.transformers.t_conts import get_conts_file
 from scripts.utils import log
 
 SCOPE = "conts"

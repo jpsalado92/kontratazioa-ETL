@@ -17,8 +17,8 @@ from datetime import datetime
 import requests
 
 from scripts.transformers.t_cauths import get_cauths_file
+from scripts.transformers.t_utils import del_none, strip_dict
 from scripts.utils import log
-from scripts.utils.utils import del_none, strip_dict
 
 SCOPE = "cauths"
 TIME_STAMP = datetime.now().strftime("%Y%m%d")

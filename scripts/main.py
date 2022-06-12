@@ -3,11 +3,11 @@ import os
 from datetime import datetime
 
 from scripts.utils import log
-from get_conts_s1 import get_conts_s1
 
 DATA_PATH = os.path.join(os.getcwd(), '..', 'data')
 
-if __name__ == "__main__":
+
+def main():
     # Date related to the current operation day
     op_date = datetime.now().strftime("%Y%m%d")
 
@@ -19,8 +19,6 @@ if __name__ == "__main__":
     log.start_log(data_path)
     logging.info(f"Starting log for: {op_date}")
 
-    # Get adjt_conts data
-    # adjt_conts_jsonl_path = get_adjt_conts(operation_date=op_date, path=DATA_PATH)
 
-    # Get conts data
-    conts_s1_jsonl_path = get_conts_s1(operation_date=op_date, path=DATA_PATH)
+if __name__ == "__main__":
+    main()

@@ -166,6 +166,8 @@ from html.parser import HTMLParser
 
 from bs4 import BeautifulSoup
 
+from scripts.transformers.t_utils import cast_bool
+
 
 class MyHTMLParser(HTMLParser):
     """ Used to decode html text"""
@@ -342,24 +344,31 @@ def parse_files_2022():
     for xml_file in os.listdir(DATA_PATH):
         print(xml_file)
         with open(os.path.join(DATA_PATH, xml_file), mode='r', encoding='UTF-8') as file:
-            xml_file = file.read().replace('encoding="ISO-8859-1"', 'encoding="utf8"')
-            soup = BeautifulSoup(xml_file, 'xml')
-            url_id = soup.find('contractingAnnouncement')['id']
-            d = {}
-            d['url'] = f"https://www.contratacion.euskadi.eus/w32-kpeperfi/es/contenidos/anuncio_contratacion/{url_id}/es_doc/index.html"
-            contracting = soup.find('contracting')
-            parse_cpv_2022(contracting, d)
-            parse_driving_entity(contracting, d)
-            parse_flags_2022(contracting, d)
-            parse_simple_id_2022(contracting, d)
-            parse_budget_2022(contracting, d)
-            parse_execution_place_2022(contracting, d)
-            parse_contracting_table_2022(contracting, d)
-            parse_contracting_body(contracting, d)
-            parse_execution_place_2022(contracting, d)
-            parse_simple_text_2022(contracting, d)
+            d = parse_xml_2022(file)
+            print(json.dumps(d, indent=2, ensure_ascii=False))
 
-        print(json.dumps(d, indent=2,ensure_ascii=False))
+
+def parse_xml_2022(file):
+    xml_file = file.read().replace('encoding="ISO-8859-1"', 'encoding="utf8"')
+    soup = BeautifulSoup(xml_file, 'xml')
+    url_id = soup.find('contractingAnnouncement')['id']
+
+    d = {
+        'url': f"https://www.contratacion.euskadi.eus/w32-kpeperfi/es/contenidos/anuncio_contratacion/{url_id}/es_doc/index.html"}
+    contracting = soup.find('contracting')
+    parse_cpv_2022(contracting, d)
+    # parse_driving_entity_2022(contracting, d)
+    parse_simple_id_2022(contracting, d)
+    parse_budget_2022(contracting, d)
+    # parse_contracting_table_2022(contracting, d)
+    # parse_contracting_body_2022(contracting, d)
+    # parse_processing_entity_2022(contracting, d)
+    # parse_driving_entity_2022(contracting, d)
+    parse_execution_place_2022(contracting, d)
+    parse_simple_text_2022(contracting, d)
+    # parse_flags_2022(contracting, d)
+    return d
+
 
 def parse_simple_text_2022(container, d):
     text_entries = [
@@ -371,11 +380,10 @@ def parse_simple_text_2022(container, d):
         "offerMaintenancePeriod",
         "offerMaintenancePeriodType",
         "processingStatus",
-        "contractingType"
+        "contractingType",
         "subject",
         "processing",
         "adjudicationProcedure"
-
     ]
     for tag in text_entries:
         try:
@@ -387,10 +395,6 @@ def parse_simple_text_2022(container, d):
 def parse_simple_id_2022(container, d):
     id_entries = [
         "contractingAuthority",
-        "entityDriving",
-        "contractingBody",
-        "contractPeriodType",
-        "contractingType"
     ]
 
     for tag in id_entries:
@@ -403,29 +407,27 @@ def parse_simple_id_2022(container, d):
 def parse_execution_place_2022(container, d):
     exec_d = {}
     try:
-        exec_d['inEU'] = container.find('placeExecutioninEU').find('placeExecution').text
+        exec_d['inEU'] = container.find('placeExecutionInEU').text
     except AttributeError:
         pass
     try:
         exec_list = []
-        for exec_place in container.find('placeExecutionNUTS').children():
-            exec_p_d = {"NUTS": exec_place.find('placeExecution')["id"],
-                        "is_main": exec_place.find('placeExecution').find("main").text}
+        for exec_place in container.find('placeExecutionNUTS').children:
+            exec_p_d = {"NUTS": exec_place["id"],
+                        "is_main": exec_place.find("main").text}
             exec_list.append(exec_p_d)
-        exec_d['placesExecution'] = exec_list
+        exec_d['places'] = exec_list
     except TypeError:
         pass
-
     d['placeExecution'] = exec_d
 
 
 def parse_flags_2022(container, d):
-    try:
-        for flag in container.find("flags").children():
-            d[f"flag_{flag['id']}"] = flag.text
-    except (TypeError, AttributeError):
-        pass
-
+    """ This field must exist """
+    flags_d = {}
+    for flag in container.find("flags").children:
+        flags_d[flag['id']] = cast_bool(flag.text)
+    d["flags"] = flags_d
 
 
 def parse_cpv_2022(container, d):
@@ -435,7 +437,7 @@ def parse_cpv_2022(container, d):
     d['cpvs'] = cpv_list
 
 
-def parse_driving_entity(container, d):
+def parse_driving_entity_2022(container, d):
     driving_entity_d = {}
     try:
         driving_entity_d["entityDriving_id"] = container.find("entityDriving")["id"]
@@ -446,24 +448,24 @@ def parse_driving_entity(container, d):
     d["drivingEntity"] = driving_entity_d
 
 
-def parse_processing_entity(container, d):
+def parse_processing_entity_2022(container, d):
     driving_entity_d = {}
     try:
         driving_entity_d["entityProcessing_id"] = container.find("entityProcessing")["id"]
         driving_entity_d["entityProcessing_name"] = container.find("entityProcessing").find("name").text
-    except AttributeError or TypeError:
+    except (AttributeError, TypeError):
         pass
-    d["drivingEntity"] = driving_entity_d
+    d["processingEntity"] = driving_entity_d
 
 
-def parse_contracting_body(container, d):
+def parse_contracting_body_2022(container, d):
     driving_entity_d = {}
     try:
         driving_entity_d["contractingBody_id"] = container.find("contractingBody")["id"]
         driving_entity_d["contractingBody_name"] = container.find("contractingBody").find("name").text
     except (AttributeError, TypeError):
         pass
-    d["drivingEntity"] = driving_entity_d
+    d["contractingBody"] = driving_entity_d
 
 
 def parse_budget_2022(container, d):
@@ -486,23 +488,20 @@ def parse_contracting_table_2022(container, d):
     ctable_d = {}
     try:
         ctable_d["contractingTable_id"] = container.find("contractingTable")["id"]
-    except (AttributeError,  TypeError):
+    except (AttributeError, TypeError):
         pass
-
     try:
         comp_list = []
-        for component in container.find("contractingTableComponents").children():
-            comp_d = {}
-            comp_d["comp_id"] = component.find("contact")["id"]
-            comp_d["comp_name"] = component.find("contact").find("name").text
-            comp_d["comp_function"] = component.find("contact").find("function").text
-            comp_d["comp_email"] = component.find("contact").find("email").text
+        for contact in container.find("contractingTableComponents").children:
+            comp_d = {"comp_id": contact["id"],
+                      "comp_name": contact.find("name").text,
+                      "comp_function": contact.find("function").text,
+                      "comp_email": contact.find("email").text}
             comp_list.append(comp_d)
         ctable_d["contractingTable_components"] = comp_list
         d['contractingTable'] = ctable_d
-    except (AttributeError,  TypeError):
+    except (AttributeError, TypeError):
         pass
-
 
 
 if __name__ == "__main__":
