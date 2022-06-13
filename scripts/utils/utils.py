@@ -38,3 +38,7 @@ def get_hash(s):
     h = hashlib.sha3_512()
     h.update(bytes(s, 'utf-8'))
     return h.hexdigest()
+
+
+def flatten(xss):
+    return [x for xs in xss for x in xs]

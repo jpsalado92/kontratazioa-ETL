@@ -10,7 +10,7 @@ from datetime import datetime
 import requests
 
 from e_utils import download_url_content
-from scripts.transformers.t_bidders import get_cbidders_file
+from scripts.transformers.t_bidders import get_cbidders_dict
 from scripts.transformers.t_utils import del_none
 from scripts.utils import log
 
@@ -44,10 +44,11 @@ def get_bidders_from_conts():
             cif = doc_d['bidder_cif']
             name = doc_d['bidder_name']
             if not bidders_d.get('bidder_cif'):
-                bidders_d[cif] = name
+                bidders_d[cif] = {'name': name}
             else:
                 if bidders_d[cif] != name:
                     raise ValueError(f"Given pkey CIF has multiple names {bidders_d[cif]} != {name}")
+    return bidders_d
 
 
 def get_classified_bidder_d():
@@ -69,26 +70,27 @@ def get_raw_cbidders_jsons(path):
     rqfpath_list = []
     for bidder_c in bidder_d["rows"]:
         fpath = os.path.join(raw_dir, f"{bidder_c['cif']}.json")
-        request_kwargs = {
-            'url': CBIDDER_DETAIL_URL,
-            'method': 'POST',
-            'data': json.dumps({"nEmp": bidder_c["nEmp"]}),
-            'headers': {'Content-Type': 'application/json'}
-        }
+        request_kwargs = {'url': CBIDDER_DETAIL_URL, 'method': 'POST', 'data': json.dumps({"nEmp": bidder_c["nEmp"]}),
+            'headers': {'Content-Type': 'application/json'}}
         rqfpath_list.append((request_kwargs, fpath))
     download_url_content(rqfpath_list)
 
 
 def get_detailed_cbidders(path):
     get_raw_cbidders_jsons(path)
-    get_cbidders_file(path)
+    return get_cbidders_dict(path)
 
 
 @log.start_end
 def get_bidders(path):
     os.makedirs(path, exist_ok=True)
-    get_detailed_cbidders(path)
-    # get_bidders_from_conts()
+    cbidders_d = get_detailed_cbidders(path)
+    bidders_d = get_bidders_from_conts()
+    full_bidders_d = dict(bidders_d, **cbidders_d)
+    with open(os.path.join(path, 'bidders.jsonl'), 'w', encoding='utf8') as jsonl:
+        for cif in full_bidders_d:
+            to_file_d = {'cif': cif} | full_bidders_d[cif]
+            jsonl.write(json.dumps(to_file_d, ensure_ascii=False) + '\n')
 
 
 if __name__ == "__main__":

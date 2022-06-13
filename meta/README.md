@@ -32,4 +32,13 @@ El código alfanumérico está compuesto por:
 * un primer nivel que comprende una letra correspondiente a una sección;
 * un segundo nivel que consta de cuatro dígitos, los primeros tres de los cuales denotan una subdivisión y el último tiene fines de verificación
 
-**Referencia:** https://simap.ted.europa.eu/web/simap/cpv 
+**Referencia:** https://simap.ted.europa.eu/web/simap/cpv
+
+## Clasificación de códigos para el IAE (Impuesto de actividad económica)
+* [Epígrafe de IAEs](https://www.euskadi.eus/contenidos/ayuda_subvencion/mec_2019_publicar/es_def/adjuntos/IAE.pdf)
+
+## Clasificación de Servicios y Obras
+Información extraída de [contratacion.euskadi.eus](https://www.contratacion.euskadi.eus/modelos-de-certificados-clasificacion-empresas/w32-kpeclasi/es/)
+* [Epígrafe de servicios](https://www.contratacion.euskadi.eus/contenidos/informacion/kpecpe_clasif_empr_modelos_cer/es_def/adjuntos/clasificacionempresas_servicios.pdf)
+* [Epígrafe de obras](https://www.contratacion.euskadi.eus/contenidos/informacion/kpecpe_clasif_empr_modelos_cer/es_def/adjuntos/clasificacionempresas_servicios.pdf)
+

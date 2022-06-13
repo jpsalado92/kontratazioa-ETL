@@ -57,10 +57,10 @@ def get_pais_dim():
             file.write(json.dumps(del_none(pais_d['pais']), ensure_ascii=False) + '\n')
 
 
-def get_tipoact_dim():
-    """ Fetches and stores `tipoact` dimension """
+def get_iae_dim():
+    """ Fetches and stores `iae` (Impuesto sobre Actividades Económivas) dimension """
     tipoact_list = requests.get(TIPOACT_DIM_URL).json()
-    filepath = os.path.join(DATA_PATH, '_'.join((TIME_STAMP, 'tipoact_dimension.jsonl')))
+    filepath = os.path.join(DATA_PATH, '_'.join((TIME_STAMP, 'iae_dimension.jsonl')))
     with open(filepath, 'w', encoding='utf8') as file:
         for tipoact_d in tipoact_list:
             # Get rid of empty data
@@ -112,7 +112,7 @@ if __name__ == "__main__":
     get_nuts_dim()
     get_cpv_dim()
     get_pais_dim()
-    get_tipoact_dim()
+    get_iae_dim()
     get_categoria_dim()
     get_subgrupo_dim()
     get_grupo_dim()
