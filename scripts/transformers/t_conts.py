@@ -124,18 +124,16 @@ ALIAS_TYPE_CONT = {
     'Obras': 'Obras',
     'Privados': 'Privados',
     'Suscripción': 'Suscripción',
+    None: None
 }
 
 
 def get_cont_type(alias):
-    if alias:
-        try:
-            return ALIAS_TYPE_CONT[alias]
-        except KeyError:
-            logging.warning(f"No value for alias {alias}")
-            return 'OTROS'
-    else:
-        return None
+    try:
+        return ALIAS_TYPE_CONT[alias]
+    except KeyError:
+        logging.warning(f"No value for alias {alias}")
+        return 'OTROS'
 
 
 def format_date(date):

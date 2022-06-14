@@ -19,9 +19,9 @@ def start_log(path):
 
 
 def start_end(func):
-    def wrapper(args, **kwargs):
+    def wrapper(*args, **kwargs):
         logging.info("Start: " + func.__name__)
-        value = func(args, **kwargs)
+        value = func(*args, **kwargs)
         logging.info("End: " + func.__name__)
         return value
 

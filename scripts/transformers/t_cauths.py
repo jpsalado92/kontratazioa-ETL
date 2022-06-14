@@ -15,7 +15,7 @@ from scripts.utils import log
 
 
 @log.start_end
-def get_cauths_file(path: os.PathLike, cauths_dict):
+def get_cauths_file(path, cauths_dict):
     """
     Based on raw html data, generates a cauth
     consolidated jsonl file at DATA_PATH

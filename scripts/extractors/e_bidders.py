@@ -1,6 +1,5 @@
 """
 Functions for fetching and storing data related to bidders and classified bidders
-from `www.contratación.euskadi.eus`
 """
 
 import json
@@ -11,29 +10,14 @@ import requests
 
 from e_utils import download_url_content
 from scripts.transformers.t_bidders import get_cbidders_dict
-from scripts.transformers.t_utils import del_none
 from scripts.utils import log
 
 SCOPE = 'bidders'
 TIME_STAMP = datetime.now().strftime("%Y%m%d")
 DATA_PATH = os.path.join(os.getcwd(), '..', '..', 'data', TIME_STAMP, SCOPE)
-BIDDER_URL = "https://www.contratacion.euskadi.eus/ac70cPublicidadWar/busquedaAnuncios/autocompleteAdjudicatarios?q="
-CBIDDER_URL = "https://www.contratacion.euskadi.eus/w32-kpesimpc/es/ac71aBusquedaRegistrosWar/empresas/filter"
+BIDDERS_URL = "https://www.contratacion.euskadi.eus/ac70cPublicidadWar/busquedaAnuncios/autocompleteAdjudicatarios?q="
+CBIDDERS_URL = "https://www.contratacion.euskadi.eus/w32-kpesimpc/es/ac71aBusquedaRegistrosWar/empresas/filter"
 CBIDDER_DETAIL_URL = "https://www.contratacion.euskadi.eus/ac71aBusquedaRegistrosWar/empresas/find"
-
-
-def get_bidders():
-    """
-    Stores a jsonl file including a list of bidder entities
-    as in contratacion.euskadi.eus
-    Note: Not used as gives little information about bidders.
-    """
-    bidder_json = requests.get(BIDDER_URL).json()
-    # Manage local directory path
-    filename = os.path.join(DATA_PATH, SCOPE + '.jsonl')
-    with open(filename, 'w', encoding='utf8') as file:
-        for bidder in bidder_json:
-            file.write(json.dumps(del_none(bidder), ensure_ascii=False) + '\n')
 
 
 def get_bidders_from_conts():
@@ -52,26 +36,25 @@ def get_bidders_from_conts():
 
 
 def get_classified_bidder_d():
-    # Get classified bidders list
     get_rows = 10000
     payload = json.dumps({"rows": get_rows})
-    bidder_d = requests.post(CBIDDER_URL, data=payload).json()
-    if int(bidder_d["records"]) > get_rows:
+    cbidders_d = requests.post(CBIDDERS_URL, data=payload).json()
+    if int(cbidders_d["records"]) > get_rows:
         raise BrokenPipeError("More CBIDDER records than asked for!!")
-    return bidder_d
+    return cbidders_d
 
 
 def get_raw_cbidders_jsons(path):
-    bidder_d = get_classified_bidder_d()
+    cbidders_d = get_classified_bidder_d()
     # Prepare directory for bidders
     raw_dir = os.path.join(path, "raw_cbidders_jsons")
     os.makedirs(raw_dir, exist_ok=True)
     # Preparare list of request parameters and store location list
     rqfpath_list = []
-    for bidder_c in bidder_d["rows"]:
-        fpath = os.path.join(raw_dir, f"{bidder_c['cif']}.json")
-        request_kwargs = {'url': CBIDDER_DETAIL_URL, 'method': 'POST', 'data': json.dumps({"nEmp": bidder_c["nEmp"]}),
-            'headers': {'Content-Type': 'application/json'}}
+    for cbidder in cbidders_d["rows"]:
+        fpath = os.path.join(raw_dir, f"{cbidder['cif']}.json")
+        request_kwargs = {'url': CBIDDER_DETAIL_URL, 'method': 'POST', 'data': json.dumps({"nEmp": cbidder["nEmp"]}),
+                          'headers': {'Content-Type': 'application/json'}}
         rqfpath_list.append((request_kwargs, fpath))
     download_url_content(rqfpath_list)
 
