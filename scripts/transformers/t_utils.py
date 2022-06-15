@@ -1,3 +1,24 @@
+from html.parser import HTMLParser
+
+
+class MyHTMLParser(HTMLParser):
+    """ Used to decode html text"""
+
+    def __init__(self):
+        HTMLParser.__init__(self)
+        self.reset()
+        self.HTMLDATA = []
+
+    def handle_starttag(self, tag, attrs):
+        pass
+
+    def handle_endtag(self, tag):
+        pass
+
+    def handle_data(self, data):
+        self.HTMLDATA = data
+
+
 def separate_duplicates(items):
     """
     Given a list of objects, retrieves:
@@ -53,7 +74,9 @@ def check_no_matched_key(cont_d, known_keys):
 
 
 def cast_bool(val):
-    if val in ("false", "False", False):
+    if val in ("false", "False", False, 'No'):
         return False
-    elif val in ("True", "true", True):
+    elif val in ("True", "true", True, 'Sí'):
         return True
+    elif not val:
+        return None

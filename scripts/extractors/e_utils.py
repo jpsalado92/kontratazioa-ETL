@@ -9,7 +9,7 @@ import aiohttp
 from aiohttp import ClientSession, ClientTimeout
 
 
-def download_url_content(urls_fpaths):
+def async_download_urls(urls_fpaths):
     logging.info(f"Number of objects to be downloaded: {len(urls_fpaths)}")
     if sys.version_info[0] == 3 and sys.version_info[1] >= 8 and sys.platform.startswith('win'):
         asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())

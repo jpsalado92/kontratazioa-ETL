@@ -8,7 +8,7 @@ from datetime import datetime
 
 import requests
 
-from e_utils import download_url_content
+from e_utils import async_download_urls
 from scripts.transformers.t_bidders import get_cbidders_dict
 from scripts.utils import log
 
@@ -56,7 +56,7 @@ def get_raw_cbidders_jsons(path):
         request_kwargs = {'url': CBIDDER_DETAIL_URL, 'method': 'POST', 'data': json.dumps({"nEmp": cbidder["nEmp"]}),
                           'headers': {'Content-Type': 'application/json'}}
         rqfpath_list.append((request_kwargs, fpath))
-    download_url_content(rqfpath_list)
+    async_download_urls(rqfpath_list)
 
 
 def get_detailed_cbidders(path):
