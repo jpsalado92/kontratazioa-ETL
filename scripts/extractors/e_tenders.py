@@ -17,8 +17,7 @@ SCOPE = "tenders"
 
 TIME_STAMP = datetime.now().strftime("%Y%m%d")
 DATA_PATH = os.path.join(os.getcwd(), '..', '..', 'data', TIME_STAMP, SCOPE)
-YEARLY_TENDERS_URL = "https://opendata.euskadi.eus/contenidos/ds_contrataciones/contrataciones_admin_{" \
-                     "year}/opendata/contratos.json "
+YEARLY_TENDERS_URL = "https://opendata.euskadi.eus/contenidos/ds_contrataciones/contrataciones_admin_{year}/opendata/contratos.json"
 
 
 def get_raw_tenders_from_xmls(path):
@@ -73,9 +72,9 @@ def get_yearly_tends(path, start_year, end_year=date.today().year + 1):
 
 @log.start_end
 def get_tenders(path):
-    os.makedirs(DATA_PATH, exist_ok=True)
-    # get_yearly_tends(path, start_year=2019)
-    # get_raw_tenders_from_xmls(path)
+    os.makedirs(path, exist_ok=True)
+    get_yearly_tends(path, start_year=2015)
+    get_raw_tenders_from_xmls(path)
     get_tenders_file(path)
 
 
