@@ -92,7 +92,7 @@ def p_is_european(soup, d):
     try:
         d['is_european'] = cast_bool(soup.find(attrs={"name": 'lugar_ejecucion_principal_europa'}).text)
     except AttributeError:
-        logging.warning("Unable to parse `is_european`")
+        d['is_european'] = None
 
 
 def p_location_nuts(soup, d):
@@ -102,7 +102,7 @@ def p_location_nuts(soup, d):
             .find(attrs={"name": 'codigo'}) \
             .text
     except AttributeError:
-        logging.warning("Unable to parse `nuts`")
+        d['location_nuts'] = None
 
 
 def p_list_batches(soup, d):
