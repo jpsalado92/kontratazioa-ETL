@@ -16,7 +16,11 @@ def get_cbidders_dict(path):
     # Iterating through every CBIDDER json
     for json_fname in os.listdir(raw_cbidders_path):
         with open(os.path.join(raw_cbidders_path, json_fname), 'r', encoding='utf8') as jsonf:
-            b_dict = json.load(jsonf)
+            try:
+                b_dict = json.load(jsonf)
+            except json.JSONDecodeError as e:
+                logging.warning(f'{e}. Could not decode {json_fname}')
+                continue
         cbidders_d[b_dict["cif"]] = {
             "name": b_dict.get("denominacionSocial"),
             "purpose": b_dict.get("objeto"),

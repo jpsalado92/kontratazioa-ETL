@@ -43,7 +43,7 @@ def get_cauth_dict() -> dict:
 def get_raw_cauth_htmls(path):
     """ Fetches and stores raw html data from CAUTHs listed with `get_cauth_dict_list()` """
     path = os.path.join(path, 'raw_html')
-    os.makedirs(path, exist_ok=False)
+    os.makedirs(path, exist_ok=True)
     for cauth_d in get_cauth_dict_list():
         cauth_cod_perfil = cauth_d['codPerfil']
         # Store raw html content

@@ -1,17 +1,18 @@
 import logging
 import os
 import sys
+from datetime import datetime
 
 
 def start_log(path):
     # Enable logging and avoid urllib3 related logging
-    logs_path = os.path.join(path, "event_log.txt")
+    logs_path = os.path.join(path, f'{datetime.now().strftime("%Y%m%d%H%M%S")}_event_log.txt')
     logging.basicConfig(
-        level=logging.DEBUG,
+        level=logging.INFO,
         format='[%(asctime)s] %(module)-15s || [%(levelname)s] - %(message)s',
         datefmt='%Y/%d/%m %H:%M:%S',
         handlers=[
-            logging.FileHandler(logs_path, encoding='utf-8'),
+            logging.FileHandler(logs_path, mode='w', encoding='utf-8'),
             logging.StreamHandler(sys.stdout)
         ]
     )

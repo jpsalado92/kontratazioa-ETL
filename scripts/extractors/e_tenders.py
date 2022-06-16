@@ -8,7 +8,7 @@ from datetime import datetime, date
 
 import requests
 
-from e_utils import async_download_urls
+from scripts.extractors.e_utils import async_download_urls
 from scripts.transformers.t_tenders.main import get_tenders_file
 from scripts.utils import log
 from scripts.utils.utils import get_hash
@@ -35,10 +35,14 @@ def get_raw_tenders_from_xmls(path):
             tenders = json.loads(file.read().removesuffix(');').removeprefix('jsonCallback('))
         # Iterate contracts in file
         for tender in tenders:
-            if tender_year == '2018':
-                data_xml_url = tender["xetrs89"]
-            else:
-                data_xml_url = tender["dataXML"]
+            try:
+                if tender_year == '2018':
+                    data_xml_url = tender["xetrs89"]
+                else:
+                    data_xml_url = tender["dataXML"]
+            except KeyError:
+                logging.warning(f"Cannot retrieve XML url from {tender}")
+                continue
             # As contracts do not have a pre-assigned code, create an ID
             xml_fpath = os.path.join(xml_tenders_path, f"{tender_year}_es_{get_hash(data_xml_url)[0:25]}.xml")
             # Append url and filepath to the list

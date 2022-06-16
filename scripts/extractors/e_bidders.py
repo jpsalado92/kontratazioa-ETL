@@ -8,7 +8,7 @@ from datetime import datetime
 
 import requests
 
-from e_utils import async_download_urls
+from scripts.extractors.e_utils import async_download_urls
 from scripts.transformers.t_bidders import get_cbidders_dict
 from scripts.utils import log
 
@@ -20,9 +20,9 @@ CBIDDERS_URL = "https://www.contratacion.euskadi.eus/w32-kpesimpc/es/ac71aBusque
 CBIDDER_DETAIL_URL = "https://www.contratacion.euskadi.eus/ac71aBusquedaRegistrosWar/empresas/find"
 
 
-def get_bidders_from_conts():
+def get_bidders_from_conts(path):
     bidders_d = {}
-    with open(os.path.join(DATA_PATH, '..', 'conts', 'conts.jsonl'), encoding='utf8') as conts_jsonl:
+    with open(os.path.join(path, '..', 'conts', 'conts.jsonl'), encoding='utf8') as conts_jsonl:
         for doc in conts_jsonl:
             doc_d = json.loads(doc)
             cif = doc_d['bidder_cif']
@@ -68,7 +68,7 @@ def get_detailed_cbidders(path):
 def get_bidders(path):
     os.makedirs(path, exist_ok=True)
     cbidders_d = get_detailed_cbidders(path)
-    bidders_d = get_bidders_from_conts()
+    bidders_d = get_bidders_from_conts(path)
     full_bidders_d = dict(bidders_d, **cbidders_d)
     with open(os.path.join(path, 'bidders.jsonl'), 'w', encoding='utf8') as jsonl:
         for cif in full_bidders_d:
