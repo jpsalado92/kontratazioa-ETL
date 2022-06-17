@@ -16,17 +16,6 @@ ELASTIC_PASSWORD = config['Elasticsearch']['Password']
 ELASTIC_CERT = config['Elasticsearch']['Cert']
 
 
-def connect_to_es():
-    es_session = Elasticsearch(
-        ELASTIC_HOST,
-        ssl_context=create_default_context(cafile=os.path.join(SECRETS_PATH, ELASTIC_CERT)),
-        basic_auth=(ELASTIC_USER, ELASTIC_PASSWORD)
-    )
-    if not es_session.ping():
-        raise BaseException("Connection failed")
-    return es_session
-
-
 def document_stream(path, index_name):
     with open(path, "r", encoding='utf-8') as jsonl:
         for doc in jsonl:
@@ -40,8 +29,18 @@ def stream_bulk(es, file, index_name):
             print(response)
 
 
-if __name__ == "__main__":
+def connect_to_es():
+    es_session = Elasticsearch(
+        ELASTIC_HOST,
+        ssl_context=create_default_context(cafile=os.path.join(SECRETS_PATH, ELASTIC_CERT)),
+        basic_auth=(ELASTIC_USER, ELASTIC_PASSWORD)
+    )
+    if not es_session.ping():
+        raise BaseException("Connection failed")
+    return es_session
+
+
+def load_in_es(jsonl_list):
     es = connect_to_es()
-    file = os.path.join('../../..', 'data', 'contratos', '20220307_contratos.jsonl')
-    index_name = "contratos2"
-    stream_bulk(es, file, index_name)
+    for jsonl_path, idx_name in jsonl_list:
+        stream_bulk(es, jsonl_path, idx_name)

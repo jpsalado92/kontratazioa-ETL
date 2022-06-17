@@ -21,13 +21,14 @@ CAUTH_URL_V1 = CAUTH_URL + "poder{codPerfil}/es_doc/es_arch_poder{codPerfil}.htm
 CAUTH_URL_V2 = CAUTH_URL + "poder{codPerfil}/es_doc/index.html"
 
 
-def get_cauth_dict_list() -> list:
+def get_cauth_dict_list(verbose=False) -> list:
     """ Returns a list of CAUTH entities (dicts) """
     cauth_list_url = BASE_URL + "ac70cPublicidadWar/busquedaInformesOpenData/" \
                                 "autocompleteObtenerPoderes?q= "
     cauth_json = requests.get(cauth_list_url).json()
     cauths = [strip_dict(del_none(cauth)) for cauth in cauth_json]
-    logging.info(f"Number of PAs fetched: {len(cauths)} ")
+    if verbose:
+        logging.info(f"Number of PAs fetched: {len(cauths)} ")
     return cauths
 
 
@@ -44,7 +45,7 @@ def get_raw_cauth_htmls(path):
     """ Fetches and stores raw html data from CAUTHs listed with `get_cauth_dict_list()` """
     path = os.path.join(path, 'raw_html')
     os.makedirs(path, exist_ok=True)
-    for cauth_d in get_cauth_dict_list():
+    for cauth_d in get_cauth_dict_list(verbose=True):
         cauth_cod_perfil = cauth_d['codPerfil']
         # Store raw html content
         v1_url = CAUTH_URL_V1.format(codPerfil=cauth_cod_perfil)
