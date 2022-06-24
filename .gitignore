@@ -15,10 +15,6 @@ data/*
 
 # Maintain data samples for cauth
 !data/samples/
-data/samples/*
-!data/samples/cauth/
-!data/samples/cont/
-!data/samples/bidder/
-!data/samples/20220616_data.rar
+
 
 
