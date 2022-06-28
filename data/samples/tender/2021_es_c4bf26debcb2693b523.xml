@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<contractingAnnouncement id="exposakisap2021002751" lang="es">
+    <url>/w32-content/es/contenidos/anuncio_contratacion/exposakisap2021002751/es/exposakisap2021002751.html</url>
+    <language>es</language>
+    <contracting id="637290">
+        <idExpOrigen desc="Expediente">262590</idExpOrigen>
+        <logo>
+            <name>OSAKIDETZA - Servicio Vasco de Salud</name>
+            <url>
+                /w32-kpeperfi/es/contenidos/anuncio_contratacion/exposakisap2021002751/es_doc/images/logo_oskidetza_30.jpg
+            </url>
+        </logo>
+        <pdf desc="Imprimir">
+            /contenidos/anuncio_contratacion/exposakisap2021002751/es_doc/adjuntos/fichaExpediente.pdf
+        </pdf>
+        <sello desc="Sello de Tiempo">/ac70cPublicidadWar/sello/262590/es</sello>
+        <urlTodosFicheros desc="Descarga de los ficheros">descargarFicheroPID(262590, 78)</urlTodosFicheros>
+        <urlFicherosModelo desc="Descargar los modelos">descargarFicheroPID(262590, 109)</urlFicherosModelo>
+        <urlSuscripciones desc="Suscribir alertas anuncio">/ac70cPublicidadWar/suscripcionAnuncios?origenPublicado=37&amp;origenExpediente=2021002751</urlSuscripciones>
+        <urlSuscripcionesPoder>/ac70cPublicidadWar/suscripcionPoder/entrada/40</urlSuscripcionesPoder>
+        <firstPublicationDate desc="Fecha de la primera publicación">29/12/2021 10:10</firstPublicationDate>
+        <lastPublicationDate desc="Fecha de la última publicación">31/12/2021 10:30</lastPublicationDate>
+        <budgetEstimated desc="Valor estimado">47.307</budgetEstimated>
+        <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">47.307</budgetWithoutVAT>
+        <codExp desc="Expediente">2021/02751</codExp>
+        <budgetWithVAT desc="Presupuesto del contrato con IVA">57.241,47</budgetWithVAT>
+        <contractInitialDate desc="Fecha inicio plazo">31/12/2021</contractInitialDate>
+        <contractEndDate desc="Fecha fin plazo">31/03/2022</contractEndDate>
+        <contractPeriodType id="1" desc="Duración del contrato">Fecha</contractPeriodType>
+        <offerMaintenancePeriodType id="4"
+                                    desc="Plazo mínimo durante el cual el licitador estará obligado a mantener la oferta">
+            Meses
+        </offerMaintenancePeriodType>
+        <offerMaintenancePeriod desc="(a partir de la recepción de ofertas)">2</offerMaintenancePeriod>
+        <processingStatus id="FO" desc="Estado de la tramitación">Formalizado / En ejecución</processingStatus>
+        <webPageTender desc="Dirección web de Licitación electrónica">
+            https://www.contratacion.euskadi.eus/KPELicitacion
+        </webPageTender>
+        <contractingAuthority id="40">
+            <name desc="Poder adjudicador">OSAKIDETZA - Servicio Vasco de Salud</name>
+            <nutsCode desc="Código NUTS">ES21</nutsCode>
+            <address desc="Dirección Postal">-</address>
+            <webPage desc="Dirección Web">http://www.osakidetza.euskadi.net</webPage>
+        </contractingAuthority>
+        <entityDriving id="262">
+            <name desc="Entidad impulsora">S5100023J - Hospital Universitario Donostia</name>
+            <address desc="Dirección Postal">Paseo Dr. Begiristain, s/n</address>
+        </entityDriving>
+        <entityProcessing id="290">
+            <name desc="Entidad tramitadora">Hospital Universitario Donostia</name>
+        </entityProcessing>
+        <contractingBody id="911111">
+            <name desc="Organo contratación">Director Gerente</name>
+        </contractingBody>
+        <contractingTable id="1125">
+            <name desc="Mesa contratación">Mesa de Contratación - Hospital Universitario Donostia</name>
+        </contractingTable>
+        <technicalContactInfo desc="Contacto Técnico">
+            <info>
+                <name desc="Nombre y Apellidos">Servicio Contratación</name>
+                <address desc="Dirección">Doctor Begiristain, 117</address>
+                <email desc="Email">osid.contratacion@osakidetza.eus</email>
+                <phone desc="Teléfono">+34 943007119</phone>
+            </info>
+        </technicalContactInfo>
+        <adminContactInfo desc="Contacto Administrativo">
+            <info>
+                <name desc="Nombre y Apellidos">Servicio Contratación</name>
+                <address desc="Dirección">Doctor Begiristain, 117</address>
+                <email desc="Email">osid.contratacion@osakidetza.eus</email>
+                <phone desc="Teléfono">+34 943007119</phone>
+            </info>
+        </adminContactInfo>
+        <presentationPlaces desc="Lugar de presentacion de las ofertas o solicitudes de participacion">
+            <placeInfo>
+                <address desc="Dirección">Se presentará por via electrónica a:
+                    https://www.contratacion.euskadi.eus/KPELicitacion
+                </address>
+                <phone desc="Teléfono">+34 945016298</phone>
+            </placeInfo>
+        </presentationPlaces>
+        <contractingTableComponents desc="Componente de la mesa/comité">
+            <contact id="16972.0">
+                <name desc="Nombre">Victoria Velasco Alonso Victoria Velasco Alonso</name>
+                <function desc="Función">Idazkari</function>
+                <email desc="Email">osid.contratacion@osakidetza.eus</email>
+            </contact>
+            <contact id="16968.0">
+                <name desc="Nombre">Mónica Moreno Galdós Moreno Galdós</name>
+                <function desc="Función">Ordezko</function>
+                <email desc="Email">osid.contratacion@osakidetza.eus</email>
+            </contact>
+            <contact id="16969.0">
+                <name desc="Nombre">Nerea Arenosa Etxebarria Nerea Arenosa Etxebarria</name>
+                <function desc="Función">Ordezko</function>
+                <email desc="Email">osid.contratacion@osakidetza.eus</email>
+            </contact>
+            <contact id="16973.0">
+                <name desc="Nombre">Amaia Urrutia Erausquin Urrutia Erausquin</name>
+                <function desc="Función">Ordezko</function>
+                <email desc="Email">amaya.urrutiaerausquin@osakidetza.net</email>
+            </contact>
+            <contact id="16971.0">
+                <name desc="Nombre">Oskar Zurdo Iraeta Oskar Zurdo Iraeta</name>
+                <function desc="Función">Ordezko</function>
+                <email desc="Email">osid.contratacion@osakidetza.eus</email>
+            </contact>
+            <contact id="16967.0">
+                <name desc="Nombre">Marta Mojedano Yubero Mojedano Yubero</name>
+                <function desc="Función">Ordezko</function>
+                <email desc="Email">osid.contratacion@osakidetza.eus</email>
+            </contact>
+            <contact id="16970.0">
+                <name desc="Nombre">Soraya Pérez Caamaño Pérez Caamaño</name>
+                <function desc="Función">Ordezko</function>
+                <email desc="Email">osid.contratacion@osakidetza.eus</email>
+            </contact>
+        </contractingTableComponents>
+        <resourceBodies desc="Órgano de recurso">
+            <resourceBody>
+                <name desc="Descripción">Órgano Administrativo de Recursos Contractuales de la Comunidad Autónoma de
+                    Euskadi
+                </name>
+                <address desc="Dirección Postal">C/ Donostia-San Sebastián, 1</address>
+                <locality desc="Localidad">Vitoria-Gasteiz</locality>
+                <postalCode desc="Código Postal">1.010</postalCode>
+                <phone desc="Teléfono">+34 945018000</phone>
+                <website desc="Dirección Web">http://www.ejgv.euskadi.eus</website>
+                <main desc="Principal">true</main>
+            </resourceBody>
+        </resourceBodies>
+        <contractingType id="3" desc="Tipo de contrato">Suministros</contractingType>
+        <subject desc="Objeto del contrato">Suministro de un Histeroscopio para el Servicio de Ginecología del Hospital
+            Universitario Donostia (OSI Donostialdea)
+        </subject>
+        <cpvs desc="CPV's">
+            <cpv id="33168000-5">
+                <name desc="CPV">Aparatos de endoscopia y endocirugía</name>
+                <main desc="Principal">true</main>
+            </cpv>
+        </cpvs>
+        <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+        <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+            <placeExecution id="ES212">
+                <code desc="Código NUTS">ES212</code>
+                <name desc="Descripción">Gipuzkoa</name>
+                <main desc="Principal">true</main>
+            </placeExecution>
+        </placeExecutionNUTS>
+        <flags>
+            <flag id="contrato_menor" desc="Contrato menor">false</flag>
+            <flag id="contrato_covid19" desc="Contrato en la gestión del Covid-19">false</flag>
+            <flag id="plan_recuperacion" desc="Plan de Recuperación, Transformación y Resiliencia">false</flag>
+            <flag id="recurso" desc="Recurso">false</flag>
+            <flag id="licitacion_electronica" desc="Licitación electrónica">true</flag>
+            <flag id="licitacion_electronica_kontratazioa" desc="Licitación KPE">true</flag>
+            <flag id="otros_compradores_sd" desc="Otros compradores pueden utilizar el sistema dinámico de adquisición">
+                false
+            </flag>
+            <flag id="central_compras" desc="El contrato es adjudicado por una central de compras">false</flag>
+            <flag id="contrato_cubierto_acp" desc="Contrato cubierto por el Acuerdo sobre Contratación Pública (ACP)">
+                true
+            </flag>
+            <flag id="division_lotes" desc="División en lotes">false</flag>
+            <flag id="variantes" desc="Se aceptan variantes">false</flag>
+            <flag id="informe_opciones" desc="Se aceptan opciones">false</flag>
+            <flag id="precios_unitarios" desc="Precios unitarios">false</flag>
+            <flag id="prorroga" desc="Prórrogas">false</flag>
+            <flag id="reservado_profesion" desc="La prestación del servicio se reserva a una profesión concreta">false
+            </flag>
+            <flag id="situacion_economica_financiera"
+                  desc="Solvencia económica y financiera indicados en los pliegos de contratación">false
+            </flag>
+            <flag id="capacidad_tecnica_profesional"
+                  desc="Criterios de solvencia indicados en los pliegos de contratación">false
+            </flag>
+            <flag id="subasta_electronica" desc="Se utilizará subasta electrónica">false</flag>
+            <flag id="presentacion_ofertas_catalogo_electronico"
+                  desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                false
+            </flag>
+            <flag id="reservado_talleres" desc="Reservado a talleres protegidos">false</flag>
+            <flag id="programa_empleo" desc="A ejecutar en un programa de empleo protegido">false</flag>
+            <flag id="obligacion_nombres_cualificaciones"
+                  desc="Obligación de indicar los nombres y las cualificaciones profesionales del personal asignado a la ejecución del contrato">
+                false
+            </flag>
+            <flag id="contrato_periodico" desc="Se trata de contratos periódicos">false</flag>
+            <flag id="pedido_electronico" desc="Se utilizará el pedido electrónico">false</flag>
+            <flag id="facturacion_electronica" desc="Se aceptará la facturación electrónica">false</flag>
+            <flag id="pago_electronico" desc="Se utilizará el pago electrónico">false</flag>
+            <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+            <flag id="garantia_provisional" desc="Garantía provisional">false</flag>
+            <flag id="garantia_definitiva" desc="Garantía definitiva">true</flag>
+            <flag id="publicar_perfil_contratante" desc="Publicar en Perfil de Contratante">true</flag>
+            <flag id="publicar_doue" desc="Publicar automáticamente en el DOUE">false</flag>
+        </flags>
+        <processing id="1" desc="Tramitación">Ordinaria</processing>
+        <adjudicationProcedure id="8" desc="Procedimiento de adjudicación">Negociado Sin Publicidad
+        </adjudicationProcedure>
+        <adjudicationCriteria id="2" desc="Criterios de adjudicación">Mejor precio</adjudicationCriteria>
+        <languages desc="Lenguas en que pueden presentarse las ofertas o las solicitudes de participacion">
+            <language>
+                <code desc="Lenguaje">ES</code>
+                <desc desc="Descripción">Español</desc>
+            </language>
+            <language>
+                <code desc="Lenguaje">EU</code>
+                <desc desc="Descripción">Euskera</desc>
+            </language>
+        </languages>
+        <authorityType id="7" desc="Tipo poder">Otro</authorityType>
+        <mainActivity id="6" desc="Principal actividad">Salud</mainActivity>
+        <communication id="1" desc="Comunicación">Acceso libre, directo, completo y gratuito a los pliegos de la
+            contratación
+        </communication>
+        <justification desc="Justificación">El presente procedimiento requiere de negociación para adjudicar la
+            necesidad del contrato al licitador justificadamente elegido por el órgano de contratación. Ver Pliego de
+            Cláusulas Administrativas
+        </justification>
+        <infoTermResource desc="Información precisa sobre el plazo de recurso">Se iniciará mediante escrito que deberá
+            presentarse en el plazo de 15 días hábiles. Dicho plazo se computará conforme a la Ley de Contratos del
+            Sector Público.
+        </infoTermResource>
+        <sheetModeAccess desc="Modo de acceso a los pliegos"/>
+        <legalProvisionReference
+                desc="Referencia de la disposición legal, reglamentaria o administrativa correspondiente"/>
+        <descExtensions desc="Descripción de las prórrogas"/>
+        <descOptions desc="Descripción de las opciones"/>
+        <professionalQualification
+                desc="Habilitación para ejercer la actividad profesional, incluidos los requisitos relativos a la inscripción en un registro profesional o mercantil"/>
+        <economicSolvencyCriterion desc="Lista y breve descripción de los criterios de solvencia">1._Volumen anual de
+            negocios, referido al mejor ejercicio dentro de los tres últimos disponibles en función de las fechas de
+            constitución o de inicio de actividades del empresario y de presentación de ofertas por importe igual o
+            superior al precio de licitación del expediente.
+        </economicSolvencyCriterion>
+        <minimumEconomicLevel desc="Nivel o niveles mínimos que pueden exigirse (en su caso)"/>
+        <technicalSolvencyCriterion desc="Lista y breve descripción de los criterios de solvencia">1._Relación de los
+            principales suministros realizados de igual o similar naturaleza que los que constituyen el objeto del
+            contrato en el curso de como máximo, los tres últimos años, en la que se indique el importe, la fecha y el
+            destinatario, público o privado de los mismos, siendo necesario que el importe acumulado en el año de mayor
+            ejecución sea igual o superior al precio de licitación del expediente. Sin perjuicio de lo dispuesto en el
+            segundo párrafo de la cláusula 11.4 de condiciones generales, estos requisitos de solvencia deben ser
+            acreditados solamente por la licitadora que haya presentado la mejor oferta mediante los documentos
+            indicados en la cláusula 25.1 de cláusulas específicas del contrato. En el caso de operadores económicos de
+            nueva creación (antigüedad inferior a cinco años) deberán disponer de la siguiente solvencia técnica o
+            profesional: indicación del personal técnico o unidades técnicas, integradas o no en la empresa, de las que
+            se disponga para la ejecución del contrato..
+        </technicalSolvencyCriterion>
+        <minimumTechnicalLevel desc="Nivel o niveles mínimos que pueden exigirse (en su caso)"/>
+        <specialClauses desc="Cláusulas especiales">
+            <specialClause>
+                <name desc="Tipo">Medioambientales</name>
+                <applicationSites>
+                    <applicationSite desc="Criterios de Adjudicación">false</applicationSite>
+                    <applicationSite desc="Condiciones especiales de ejecución">false</applicationSite>
+                    <applicationSite desc="Criterios de solvencia técnica">false</applicationSite>
+                    <applicationSite desc="Contratos reservados">false</applicationSite>
+                    <applicationSite desc="Otros">false</applicationSite>
+                </applicationSites>
+            </specialClause>
+            <specialClause>
+                <name desc="Tipo">Sociales</name>
+                <applicationSites>
+                    <applicationSite desc="Criterios de Adjudicación">false</applicationSite>
+                    <applicationSite desc="Condiciones especiales de ejecución">false</applicationSite>
+                    <applicationSite desc="Criterios de solvencia técnica">false</applicationSite>
+                    <applicationSite desc="Contratos reservados">false</applicationSite>
+                    <applicationSite desc="Otros">false</applicationSite>
+                </applicationSites>
+            </specialClause>
+            <specialClause>
+                <name desc="Tipo">Igualdad de Mujeres y Hombres</name>
+                <applicationSites>
+                    <applicationSite desc="Condiciones especiales de ejecución">true</applicationSite>
+                </applicationSites>
+            </specialClause>
+        </specialClauses>
+        <deadlineSubmissionOffer desc="Fecha límite de presentación de ofertas o solicitudes de participación">
+            <date desc="Fecha">14/12/2021 09:30</date>
+            <time desc="Hora">09:30</time>
+        </deadlineSubmissionOffer>
+        <escrowOpeningFormulas desc="Apertura de plicas Sobre único">
+            <escrow>
+                <description desc="Descripción">Apertura de ofetas evaluables mediante criterios sujetos a fórmula
+                </description>
+                <dateTime>
+                    <date desc="Fecha de apertura">14/12/2021 10:00</date>
+                    <time desc="Hora de Apertura">10:00</time>
+                </dateTime>
+                <public desc="Pública">false</public>
+                <description_place_es desc="Lugar">https://www.contratacion.euskadi.eus/KPELicitacion
+                </description_place_es>
+                <description_authorized_es
+                        desc="Información sobre las personas autorizadas y el procedimiento de apertura">Los componentes
+                    de la mesa de contratación publicados en el Perfil de Contratante.
+                </description_authorized_es>
+            </escrow>
+        </escrowOpeningFormulas>
+        <systemsStreamliningRecruitment desc="Sistemas para la racionalización de la contratación">
+            <flag id="acuerdo_marco" desc="Acuerdo Marco">false</flag>
+            <flag id="sistema_dinamico" desc="Sistema dinámico de adquisición">false</flag>
+            <flag id="contratacion_conjunta" desc="Contratación conjunta">false</flag>
+            <flag id="encargo_medios_propios" desc="Encargo a medios propios">false</flag>
+        </systemsStreamliningRecruitment>
+        <offersManagement desc="Empresas Licitadoras">
+            <offerManagement>
+                <name desc="Razón Social">KARL STORZ ENDOSCOPIA IBERICA, S.A.</name>
+                <cif desc="CIF">A78936606</cif>
+                <pyme desc="Es Pyme">false</pyme>
+                <placeExecutionInEU desc="Sede Social Unión Europea">false</placeExecutionInEU>
+                <codNuts desc="Código NUTS">ES300</codNuts>
+                <provincia desc="Provincia">Madrid</provincia>
+                <municipio desc="Municipio">San Fernando de Henares</municipio>
+                <address desc="Dirección Postal">PQ.EMPRE. SAN FERNANDO - EDIF MUN</address>
+                <postalCode desc="Código postal">28.830</postalCode>
+                <phone1 desc="Teléfono 1">+34 916771051</phone1>
+                <email desc="Email ">administration-es@karlstorz.com</email>
+                <registerDate desc="Fecha registro">13/12/2021</registerDate>
+            </offerManagement>
+        </offersManagement>
+        <resolutionFiles desc="Documentos resolución">
+            <file>
+                <name desc="Nombre del fichero">Resolución de adjudicación-RA.pdf</name>
+                <onclick>descargarFichero('0901a0fe86b1f34d')</onclick>
+                <fileType desc="Tipo de fichero">Resolucion Definitiva - Resolución de adjudicación</fileType>
+            </file>
+            <file>
+                <name desc="Nombre del fichero">Informe técnico definitivo de valoración de ofertas-IE.pdf</name>
+                <onclick>descargarFichero('0901a0fe869fbd2f')</onclick>
+                <fileType desc="Tipo de fichero">Otros</fileType>
+            </file>
+        </resolutionFiles>
+        <minQuorumOpening desc="Quorum minimo de apertura">2</minQuorumOpening>
+        <typeOfferLots desc="Pueden presentarse ofertas para">Todos los lotes</typeOfferLots>
+        <formalizations>
+            <formalization>
+                <contractCode desc="Código del contrato"
+                              url="/ac70cPublicidadWar/busquedaContrato/detalleContratoOrigen/468615">
+                    2021/02751262_00001
+                </contractCode>
+                <state desc="Estado Contrato">Pdte. firma administración</state>
+                <id desc="CIF">A78936606</id>
+                <businessName desc="Razón Social">KARL STORZ ENDOSCOPIA IBERICA, S.A.</businessName>
+                <dateCompanySignature desc="F. Firma Empresa / Formalización">31/12/2021</dateCompanySignature>
+            </formalization>
+        </formalizations>
+        <resolutions desc="Resolución">
+            <resolution>
+                <ofertaAdjudicataria desc="Oferta Adjudicataria">Oferta base</ofertaAdjudicataria>
+                <state desc="Estado">Adjudicación</state>
+                <priceWithoutVAT desc="Precio sin IVA">47.307</priceWithoutVAT>
+                <priceWithVAT desc="Precio con IVA">57.241,47</priceWithVAT>
+                <adjInfo desc="Adjudicación">
+                    <date desc="Fecha adjudicación">29/12/2021</date>
+                    <termType desc="Tipo plazo">Fecha</termType>
+                    <dateTerm desc="Fecha fin plazo">31/03/2022</dateTerm>
+                    <licitorCompanies desc="Empresa Adjudicataria">
+                        <licitorCompany>
+                            <businessName desc="Razón social">KARL STORZ ENDOSCOPIA IBERICA, S.A.</businessName>
+                            <businessCif desc="CIF">A78936606</businessCif>
+                            <budgetWithoutVAT desc="Precio sin IVA">47.307</budgetWithoutVAT>
+                            <budgetWithVAT desc="Precio con IVA">57.241,47</budgetWithVAT>
+                        </licitorCompany>
+                    </licitorCompanies>
+                    <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                    <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                        <placeExecution id="ES300">
+                            <code desc="Código NUTS">ES300</code>
+                            <name desc="Descripción">Madrid</name>
+                            <main desc="Principal">true</main>
+                        </placeExecution>
+                    </placeExecutionNUTS>
+                    <outsourcing desc="Es probable que el contrato sea objeto de subcontratación">false</outsourcing>
+                </adjInfo>
+            </resolution>
+        </resolutions>
+        <expFiles desc="Ficheros">
+            <file>
+                <name desc="Nombre del fichero">Pliego de Cláusulas Administrativas Particulares-PCAP.pdf</name>
+                <onclick>descargarFichero('0901a0fe8682adcb')</onclick>
+                <fileType desc="Tipo de fichero">Pliego de cláusulas administrativas particulares</fileType>
+            </file>
+            <file>
+                <name desc="Nombre del fichero">Pliego de Prescripciones Técnicas-PPT.pdf</name>
+                <onclick>descargarFichero('0901a0fe8682adca')</onclick>
+                <fileType desc="Tipo de fichero">Pliego de bases técnicas</fileType>
+            </file>
+            <file>
+                <name desc="Nombre del fichero">Documento anexo-Doc. Perfil.zip</name>
+                <onclick>descargarFichero('0901a0fe8682adfe')</onclick>
+                <fileType desc="Tipo de fichero">Otros</fileType>
+            </file>
+            <file>
+                <name desc="Nombre del fichero">Documento anexo-Sobre Único.zip</name>
+                <onclick>descargarFichero('0901a0fe8682adfb')</onclick>
+                <fileType desc="Tipo de fichero">Otros</fileType>
+            </file>
+            <file>
+                <name desc="Nombre del fichero">Acta de la mesa (apertura de proposiciones evaluables mediante
+                    fórmulas)-AMJTE.pdf
+                </name>
+                <onclick>descargarFichero('0901a0fe869fb9d3')</onclick>
+                <fileType desc="Tipo de fichero">Otros</fileType>
+            </file>
+            <file>
+                <name desc="Nombre del fichero">Acta de la mesa (apertura de la documentación
+                    administrativa)-AMJTE.pdf
+                </name>
+                <onclick>descargarFichero('0901a0fe869fb533')</onclick>
+                <fileType desc="Tipo de fichero">Otros</fileType>
+            </file>
+            <file>
+                <name desc="Nombre del fichero">Propuesta adjudicación y aceptación-AMCA.pdf</name>
+                <onclick>descargarFichero('0901a0fe869fc039')</onclick>
+                <fileType desc="Tipo de fichero">Otros</fileType>
+            </file>
+            <file>
+                <name desc="Nombre del fichero">Documento de contrato firmado-Anuncio Formalización Contrato.pdf</name>
+                <onclick>descargarFichero('0901a0fe86b4189e')</onclick>
+                <fileType desc="Tipo de fichero">Otros</fileType>
+            </file>
+        </expFiles>
+        <historic desc="Historicos">
+            <historical>
+                <idHist desc="Id Expediente">486362.0</idHist>
+                <publicDate desc="Fecha de publicación">29/12/2021 10:10:03</publicDate>
+                <desc desc="Descripción Estado Tramitación">Adjudicación</desc>
+                <url desc="Url">/ac70cPublicidadWar/historicoAnuncios?idExpediente=486362&amp;idioma=es</url>
+            </historical>
+        </historic>
+        <otherTypePower desc="Otro tipo de poder">Ente público de derecho privado</otherTypePower>
+        <biddersNumber desc="Nº de licitadores presentados">1</biddersNumber>
+        <pymeNumOffers desc="Nº de ofertas recibidas de pyme">0</pymeNumOffers>
+        <otherEstatesNumOffers desc="Nº de ofertas recibidas de otros Estados miembro de la UE">0
+        </otherEstatesNumOffers>
+        <thirdCountriesNumOffers desc="Nº de ofertas recibidas de terceros países">0</thirdCountriesNumOffers>
+        <electronicallyNumOffers desc="Nº de ofertas recibidas por vía electrónica">1</electronicallyNumOffers>
+        <trazability desc="Trazabilidad">/ac70cPublicidadWar/trazabilidad/262590?idioma=es&amp;R01HNoPortal=true
+        </trazability>
+        <isPlazoCerrado>false</isPlazoCerrado>
+        <isPreviousAnnouncement>false</isPreviousAnnouncement>
+        <groupedAnnouncement>false</groupedAnnouncement>
+    </contracting>
+</contractingAnnouncement>

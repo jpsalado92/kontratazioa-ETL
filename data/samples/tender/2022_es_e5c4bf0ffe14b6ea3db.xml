@@ -1,0 +1,2551 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<contractingAnnouncement id="expjaso315045" lang="es">
+    <url>/w32-content/es/contenidos/anuncio_contratacion/expjaso315045/es/expjaso315045.html</url>
+    <language>es</language>
+    <contracting id="742353">
+        <idExpOrigen desc="Expediente">315045</idExpOrigen>
+        <logo>
+            <name>AGASA</name>
+            <url>/w32-kpeperfi/es/contenidos/anuncio_contratacion/expjaso315045/es_doc/images/logo_anarbe_berria.jpg
+            </url>
+        </logo>
+        <pdf desc="Imprimir">/contenidos/anuncio_contratacion/expjaso315045/es_doc/adjuntos/fichaExpediente.pdf</pdf>
+        <sello desc="Sello de Tiempo">/ac70cPublicidadWar/sello/315045/es</sello>
+        <urlTodosFicheros desc="Descarga de los ficheros">descargarFicheroPID(315045, 78)</urlTodosFicheros>
+        <urlFicherosModelo desc="Descargar los modelos">descargarFicheroPID(315045, 109)</urlFicherosModelo>
+        <linkToTender desc="Licitar">/ac70bLicitacionWar/panelInteligente/licitar/315045</linkToTender>
+        <urlSuscripciones desc="Suscribir alertas anuncio">/ac70cPublicidadWar/suscripcionAnuncios?origenPublicado=1&amp;origenExpediente=315045</urlSuscripciones>
+        <urlSuscripcionesPoder>/ac70cPublicidadWar/suscripcionPoder/entrada/340</urlSuscripcionesPoder>
+        <firstPublicationDate desc="Fecha de publicación">13/06/2022 10:09</firstPublicationDate>
+        <budgetEstimated desc="Valor estimado">355.900,31</budgetEstimated>
+        <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">2.847.202,52</budgetWithoutVAT>
+        <codExp desc="Expediente">SU.22.05</codExp>
+        <budgetWithVAT desc="Presupuesto del contrato con IVA">3.445.115,04</budgetWithVAT>
+        <contractPeriod desc="Plazo">2</contractPeriod>
+        <contractPeriodType id="5" desc="Duración del contrato">Años</contractPeriodType>
+        <offerMaintenancePeriodType id="4"
+                                    desc="Plazo mínimo durante el cual el licitador estará obligado a mantener la oferta">
+            Meses
+        </offerMaintenancePeriodType>
+        <offerMaintenancePeriod desc="(a partir de la recepción de ofertas)">2</offerMaintenancePeriod>
+        <processingStatus id="AL" desc="Estado de la tramitación">Abierto / Plazo de presentación</processingStatus>
+        <webPageTender desc="Dirección web de Licitación electrónica">
+            https://www.contratacion.euskadi.eus/KPELicitacion
+        </webPageTender>
+        <contractingAuthority id="340">
+            <name desc="Poder adjudicador">AGASA</name>
+            <nutsCode desc="Código NUTS">ES212</nutsCode>
+            <address desc="Dirección Postal">Errotaburu pasealekua, 1-6. solairua. 20018 Donostia/San Sebastián
+                (Gipuzkoa)
+            </address>
+            <webPage desc="Dirección Web">http://www.agasa.eus</webPage>
+        </contractingAuthority>
+        <entityDriving id="792">
+            <name desc="Entidad impulsora">A20538039 - Aguas del Añarbe-Añarbeko Urak, S.A.</name>
+            <address desc="Dirección Postal">Errotaburu pasealekua, 1-6. solairua20018 Donostia/San Sebastián
+                (Gipuzkoa)
+            </address>
+        </entityDriving>
+        <entityProcessing id="792">
+            <name desc="Entidad tramitadora">A20538039 - Aguas del Añarbe-Añarbeko Urak, S.A.</name>
+            <address desc="Dirección Postal">Errotaburu pasealekua, 1-6. solairua20018 Donostia/San Sebastián
+                (Gipuzkoa)
+            </address>
+        </entityProcessing>
+        <contractingBody id="912284">
+            <name desc="Organo contratación">Consejo de Administración</name>
+        </contractingBody>
+        <contractingTable id="1545">
+            <name desc="Mesa contratación">Mesa de Contratación - Aguas del Añarbe-Añarbeko Urak, S.A.</name>
+        </contractingTable>
+        <technicalContactInfo desc="Contacto Técnico">
+            <info>
+                <name desc="Nombre y Apellidos">Administrazio arloa</name>
+                <address desc="Dirección">Errotaburu pasealekua, 1-6. solairua20018 Donostia/San Sebastián (Gipuzkoa)
+                </address>
+                <webPage desc="Dirección Web">http://www.agasa.eus</webPage>
+                <email desc="Email">info@agasa.eus</email>
+                <phone desc="Teléfono">+34 943213199</phone>
+            </info>
+        </technicalContactInfo>
+        <presentationPlaces desc="Lugar de presentación de las ofertas o solicitudes de participación">
+            <placeInfo>
+                <address desc="Dirección">https://www.contratacion.euskadi.eus/KPELicitacion</address>
+                <webPage desc="Dirección Web">http://www.agasa.eus</webPage>
+                <phone desc="Teléfono">+34 943213199</phone>
+                <email desc="Email">info@agasa.eus</email>
+            </placeInfo>
+        </presentationPlaces>
+        <contractingTableComponents desc="Componente de la mesa/comité">
+            <contact id="36809.0">
+                <name desc="Nombre">Noemi Recio Marzal</name>
+                <function desc="Función">Idazkari</function>
+                <email desc="Email">nrecio@agasa.eus</email>
+            </contact>
+            <contact id="36808.0">
+                <name desc="Nombre">Edurne Maya Legarra</name>
+                <function desc="Función">Ordezko</function>
+                <email desc="Email">emaya@agasa.eus</email>
+            </contact>
+            <contact id="36807.0">
+                <name desc="Nombre">Miguel Ángel Corcuera Barrera</name>
+                <function desc="Función">Besterik</function>
+                <email desc="Email">mcorcuera@agasa.eus</email>
+            </contact>
+        </contractingTableComponents>
+        <resourceBodies desc="Órgano de recurso">
+            <resourceBody>
+                <name desc="Descripción">Órgano Administrativo de Recursos Contractuales</name>
+                <locality desc="Localidad">Vitoria-Gasteiz</locality>
+                <email desc="Email">oarc@euskadi.eus</email>
+                <main desc="Principal">true</main>
+            </resourceBody>
+        </resourceBodies>
+        <contractingType id="3" desc="Tipo de contrato">Suministros</contractingType>
+        <subject desc="Objeto del contrato">Acuerdo Marco de suministro de material de laboratorio con destino a la ETAP
+            Petritegi y a la EDAR de Loiola
+        </subject>
+        <cpvs desc="CPV's">
+            <cpv id="33696500-0">
+                <name desc="CPV">Reactivos de laboratorio</name>
+                <main desc="Principal">true</main>
+            </cpv>
+        </cpvs>
+        <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+        <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+            <placeExecution id="ES212">
+                <code desc="Código NUTS">ES212</code>
+                <name desc="Descripción">Gipuzkoa</name>
+                <main desc="Principal">true</main>
+            </placeExecution>
+        </placeExecutionNUTS>
+        <flags>
+            <flag id="contrato_menor" desc="Contrato menor">false</flag>
+            <flag id="contrato_covid19" desc="Contrato en la gestión del Covid-19">false</flag>
+            <flag id="plan_recuperacion" desc="Plan de Recuperación, Transformación y Resiliencia">false</flag>
+            <flag id="recurso" desc="Recurso">true</flag>
+            <flag id="licitacion_electronica" desc="Licitación electrónica">true</flag>
+            <flag id="licitacion_electronica_kontratazioa" desc="Licitación KPE">true</flag>
+            <flag id="otros_compradores_sd" desc="Otros compradores pueden utilizar el sistema dinámico de adquisición">
+                false
+            </flag>
+            <flag id="central_compras" desc="El contrato es adjudicado por una central de compras">false</flag>
+            <flag id="contrato_cubierto_acp" desc="Contrato cubierto por el Acuerdo sobre Contratación Pública (ACP)">
+                false
+            </flag>
+            <flag id="division_lotes" desc="División en lotes">true</flag>
+            <flag id="variantes" desc="Se aceptan variantes">false</flag>
+            <flag id="informe_opciones" desc="Se aceptan opciones">false</flag>
+            <flag id="precios_unitarios" desc="Precios unitarios">false</flag>
+            <flag id="prorroga" desc="Prórrogas">true</flag>
+            <flag id="reservado_profesion" desc="La prestación del servicio se reserva a una profesión concreta">false
+            </flag>
+            <flag id="situacion_economica_financiera"
+                  desc="Solvencia económica y financiera indicados en los pliegos de contratación">true
+            </flag>
+            <flag id="capacidad_tecnica_profesional"
+                  desc="Criterios de solvencia indicados en los pliegos de contratación">true
+            </flag>
+            <flag id="subasta_electronica" desc="Se utilizará subasta electrónica">false</flag>
+            <flag id="presentacion_ofertas_catalogo_electronico"
+                  desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                false
+            </flag>
+            <flag id="reservado_talleres" desc="Reservado a talleres protegidos">false</flag>
+            <flag id="programa_empleo" desc="A ejecutar en un programa de empleo protegido">false</flag>
+            <flag id="obligacion_nombres_cualificaciones"
+                  desc="Obligación de indicar los nombres y las cualificaciones profesionales del personal asignado a la ejecución del contrato">
+                false
+            </flag>
+            <flag id="contrato_periodico" desc="Se trata de contratos periódicos">false</flag>
+            <flag id="pedido_electronico" desc="Se utilizará el pedido electrónico">false</flag>
+            <flag id="facturacion_electronica" desc="Se aceptará la facturación electrónica">false</flag>
+            <flag id="pago_electronico" desc="Se utilizará el pago electrónico">false</flag>
+            <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+            <flag id="garantia_provisional" desc="Garantía provisional">false</flag>
+            <flag id="garantia_definitiva" desc="Garantía definitiva">false</flag>
+            <flag id="publicar_perfil_contratante" desc="Publicar en Perfil de Contratante">true</flag>
+            <flag id="publicar_doue" desc="Publicar automáticamente en el DOUE">false</flag>
+        </flags>
+        <processing id="1" desc="Tramitación">Ordinaria</processing>
+        <adjudicationProcedure id="1" desc="Procedimiento de adjudicación">Abierto</adjudicationProcedure>
+        <adjudicationCriteria id="2" desc="Criterios de adjudicación">Mejor precio</adjudicationCriteria>
+        <languages desc="Lenguas en que pueden presentarse las ofertas o las solicitudes de participación">
+            <language>
+                <code desc="Lenguaje">ES</code>
+                <desc desc="Descripción">Español</desc>
+            </language>
+            <language>
+                <code desc="Lenguaje">EU</code>
+                <desc desc="Descripción">Euskera</desc>
+            </language>
+        </languages>
+        <authorityType id="3" desc="Tipo poder">Autoridad regional o local</authorityType>
+        <mainActivity id="4" desc="Principal actividad">Medio ambiente</mainActivity>
+        <communication id="1" desc="Comunicación">Acceso libre, directo, completo y gratuito a los pliegos de la
+            contratación
+        </communication>
+        <sheetModeAccess desc="Modo de acceso a los pliegos">https://www.contratacion.euskadi.eus/</sheetModeAccess>
+        <legalProvisionReference
+                desc="Referencia de la disposición legal, reglamentaria o administrativa correspondiente"/>
+        <numberExtensions desc="Número de prórrogas">3</numberExtensions>
+        <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por tres
+            períodos de dos años cada uno de ellos
+        </descExtensions>
+        <descOptions desc="Descripción de las opciones"/>
+        <professionalQualification
+                desc="Habilitación para ejercer la actividad profesional, incluidos los requisitos relativos a la inscripción en un registro profesional o mercantil"/>
+        <economicSolvencyCriterion desc="Lista y breve descripción de los criterios de solvencia"/>
+        <minimumEconomicLevel desc="Nivel o niveles mínimos que pueden exigirse (en su caso)"/>
+        <technicalSolvencyCriterion desc="Lista y breve descripción de los criterios de solvencia"/>
+        <minimumTechnicalLevel desc="Nivel o niveles mínimos que pueden exigirse (en su caso)"/>
+        <specialClauses desc="Cláusulas especiales">
+            <specialClause>
+                <name desc="Tipo">Medioambientales</name>
+                <applicationSites>
+                    <applicationSite desc="Criterios de Adjudicación">false</applicationSite>
+                    <applicationSite desc="Condiciones especiales de ejecución">true</applicationSite>
+                    <applicationSite desc="Criterios de solvencia técnica">false</applicationSite>
+                    <applicationSite desc="Contratos reservados">false</applicationSite>
+                    <applicationSite desc="Otros">false</applicationSite>
+                </applicationSites>
+            </specialClause>
+            <specialClause>
+                <name desc="Tipo">Sociales</name>
+                <applicationSites>
+                    <applicationSite desc="Criterios de Adjudicación">false</applicationSite>
+                    <applicationSite desc="Condiciones especiales de ejecución">false</applicationSite>
+                    <applicationSite desc="Criterios de solvencia técnica">false</applicationSite>
+                    <applicationSite desc="Contratos reservados">false</applicationSite>
+                    <applicationSite desc="Otros">false</applicationSite>
+                </applicationSites>
+            </specialClause>
+            <specialClause>
+                <name desc="Tipo">Igualdad de Mujeres y Hombres</name>
+                <applicationSites>
+                    <applicationSite desc="Criterios de Adjudicación">false</applicationSite>
+                    <applicationSite desc="Condiciones especiales de ejecución">false</applicationSite>
+                    <applicationSite desc="Criterios de solvencia técnica">false</applicationSite>
+                    <applicationSite desc="Contratos reservados">false</applicationSite>
+                    <applicationSite desc="Otros">false</applicationSite>
+                </applicationSites>
+            </specialClause>
+        </specialClauses>
+        <vats desc="IVA(s) del presupuesto del contrato">
+            <vat desc="Texto descriptivo de prueba">
+                <name desc="Concepto">IVA</name>
+                <type desc="Tipo de IVA">21 %, tipo de IVA general</type>
+            </vat>
+        </vats>
+        <deadlineSubmissionOffer desc="Fecha límite de presentación de ofertas o solicitudes de participación">
+            <date desc="Fecha">07/07/2022 14:00</date>
+            <time desc="Hora">14:00</time>
+        </deadlineSubmissionOffer>
+        <escrowOpeningFormulas desc="Apertura de plicas Sobre único">
+            <escrow>
+                <description desc="Descripción">Apertura del sobre único</description>
+                <dateTime>
+                    <date desc="Fecha de apertura">13/07/2022 12:00</date>
+                    <time desc="Hora de Apertura">12:00</time>
+                </dateTime>
+                <public desc="Pública">true</public>
+                <description_place_es desc="Lugar">Oficinas generales de AGASA</description_place_es>
+                <description_authorized_es
+                        desc="Información sobre las personas autorizadas y el procedimiento de apertura">Personal de
+                    AGASA
+                </description_authorized_es>
+            </escrow>
+        </escrowOpeningFormulas>
+        <sheetSpecifications desc="Aclaración al pliego">
+            <specification>
+                <description desc="Aclaración">Los licitadores que soliciten ser admitidos en más de un lote deberán
+                    presentar la solicitud de admisión (documento nº 1 señalado en la condición 8.3 del PCAP) en todos
+                    los lotes a los que se presenten. El resto de documentación referida en la condición 8.3 del PCAP
+                    (documento nº 2 al 7) deberá ser presentada únicamente en uno de los lotes a los que se presenten.
+                </description>
+                <date desc="Fecha aclaración">06/06/2022</date>
+            </specification>
+        </sheetSpecifications>
+        <systemsStreamliningRecruitment desc="Sistemas para la racionalización de la contratación">
+            <flag id="acuerdo_marco" desc="Acuerdo Marco">true</flag>
+            <flag id="sistema_dinamico" desc="Sistema dinámico de adquisición">false</flag>
+            <flag id="contratacion_conjunta" desc="Contratación conjunta">false</flag>
+            <flag id="encargo_medios_propios" desc="Encargo a medios propios">false</flag>
+        </systemsStreamliningRecruitment>
+        <previousDOUENumber desc="Número de anuncio en el DOUE anterior (20XX/S XXX-XXXXXX)">2022/S 111-310549
+        </previousDOUENumber>
+        <minQuorumOpening desc="Quorum mínimo de apertura">2</minQuorumOpening>
+        <lots desc="Lotes">
+            <lot>
+                <identificador desc="Identificador">Lote 1: Deltalab</identificador>
+                <subject desc="Objeto del contrato">Acuerdo Marco de suministro de material de laboratorio con destino a
+                    la ETAP Pe-tritegi y a la EDAR de Loiola
+                </subject>
+                <budgetEstimated desc="Valor estimado">3.686,1</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">3.686,1</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">4.460,18</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 2: Filter-Lab</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">5.803,95</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">5.803,95</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">7.022,77</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 3: Brand</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">4.923,96</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">4.923,96</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">5.957,99</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 4: Bürkle</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">1.060,48</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">1.060,48</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">1.283,18</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 5: Eppendorf</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">21.096,72</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">21.096,72</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">25.527,03</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 6: Hach</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">35.360,49</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">35.360,49</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">42.786,19</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 7: Inorganic Ventures</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">2.207,76</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">2.207,76</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">2.671,38</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 8: Merck</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">22.612,12</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">22.612,12</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">27.360,66</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 9: Millipore</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">15.057,25</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">15.057,25</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">18.219,27</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 10: Panreac</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">26.781,91</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">26.781,91</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">32.406,11</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 11: Pobel</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">1.413,18</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">1.413,18</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">1.709,94</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 12: Radiometer</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">3.500</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">3.500</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">4.235</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 13: Reagecon</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">14.611,33</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">14.611,33</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">17.679,7</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 14: Supelco</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">5.869,75</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">5.869,75</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">7.102,39</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 15: VWR (R.D.)</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">8.460,12</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">8.460,12</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">10.236,74</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 16: Azlon</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">1.565,46</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">1.565,46</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">1.894,2</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 17: Biomérieux</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">1.888,45</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">1.888,45</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">2.285,02</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 18: Microkit</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">1.012</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">1.012</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">1.224,52</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 19: AccuStandard</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">2.832,85</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">2.832,85</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">3.427,74</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 20: Dr. Ehrenstorfer</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">2.542,76</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">2.542,76</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">3.076,73</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 21: Mettler Toledo</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">7.951,6</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">7.951,6</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">9.621,43</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 22: Soria-Greiner</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">2.149,82</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">2.149,82</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">2.601,28</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 23: Thermo Scientific</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">11.653,51</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">11.653,51</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">14.100,74</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 24: Hamilton</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">2.179,34</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">2.179,34</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">2.637</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 25: Crison</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">3.578,95</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">3.578,95</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">4.330,52</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 26: Agilent</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">12.596,88</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">12.596,88</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">15.242,22</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 27: Analytical jena</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">4.171,16</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">4.171,16</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">5.047,1</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 28: Celea</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">1.413,95</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">1.413,95</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">1.710,87</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 29: Difco</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">438,38</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">438,38</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">530,43</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 30: Gerstel</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">11.557,51</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">11.557,51</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">13.984,58</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 31: Idexx</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">31.800,04</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">31.800,04</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">38.478,04</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 32 : Metrohm</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">17.273,94</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">17.273,94</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">20.901,46</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 33: MLE</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">3.049,58</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">3.049,58</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">3.689,99</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 34: Oxoid</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">5.181,4</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">5.181,4</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">6.269,49</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 35: Romil</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">4.053,17</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">4.053,17</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">4.904,33</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 36: Foss Tecator</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">1.610,73</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">1.610,73</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">1.948,98</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 37: Fluka</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">550,28</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">550,28</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">665,83</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 38: Absolute Standards</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">4.948,02</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">4.948,02</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">5.987,1</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 39: SPEXertificate</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">582,12</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">582,12</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">704,36</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 40: Sterilin</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">800,42</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">800,42</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">968,5</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 41: Vidra-foc</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">8.740,29</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">8.740,29</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">10.575,75</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 42: VWR Prolabo</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">1.595,6</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">1.595,6</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">1.930,67</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 43: Testo</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">521,48</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">521,48</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">630,99</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 44: Pyrex</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">8.187,72</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">8.187,72</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">9.907,14</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 45: Isostandards</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">595,46</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">595,46</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">720,5</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 46: Scharlab</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">1.219,04</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">1.219,04</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">1.475,03</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 47: Chromacol</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">1.092</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">1.092</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">1.321,32</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 48: Hanna</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">1.639,68</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">1.639,68</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">1.984,01</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 49: ISC science</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">260</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">260</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">314,6</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 50: Jasco</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">220</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">220</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">266,2</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 51: PSA</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">560</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">560</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">677,6</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 52: Pronadisa</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">320</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">320</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">387,2</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 53: Starna</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">1.430</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">1.430</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">1.730,3</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 54: Biotage</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">1.957</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">1.957</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">2.367,97</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 55: Wellington Laboratories</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">750</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">750</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">907,5</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+            <lot>
+                <identificador desc="Identificador">Lote 56: Sigma-Aldrich</identificador>
+                <subject desc="Objeto del contrato">Material de laboratorio</subject>
+                <budgetEstimated desc="Valor estimado">16.984,65</budgetEstimated>
+                <budgetWithoutVAT desc="Presupuesto del contrato sin IVA">16.984,65</budgetWithoutVAT>
+                <budgetWithVAT desc="Presupuesto del contrato con IVA">20.551,42</budgetWithVAT>
+                <placeExecutionInEU desc="Lugar de ejecución principal en la UE">true</placeExecutionInEU>
+                <maxNumberVariants desc="Número máximo de variantes">0</maxNumberVariants>
+                <descExtensions desc="Descripción de las prórrogas">El Acuerdo Marco podrá ser prorrogado por AGASA por
+                    tres períodos de dos años cada uno de ellos
+                </descExtensions>
+                <lotPeriodType id="5" desc="Duración del lote">Años</lotPeriodType>
+                <lotPeriod desc="Plazo">1</lotPeriod>
+                <awardCriteria id="2" desc="Criterios de adjudicación">Mejor precio</awardCriteria>
+                <expectedNumberCandidates desc="Número previsto de candidatos:">0</expectedNumberCandidates>
+                <minNumberCandidates desc="Número mínimo de candidatos:">0</minNumberCandidates>
+                <maxNumberCandidates desc="Número máximo de candidatos:">0</maxNumberCandidates>
+                <flags>
+                    <flag id="financiado_ue" desc="Financiado con fondos de la UE">false</flag>
+                    <flag id="variantes" desc="Se aceptan variantes">false</flag>
+                    <flag id="prorroga" desc="Prórrogas">true</flag>
+                    <flag id="presentacion_ofertas_catalogo_electronico"
+                          desc="Las ofertas deben presentarse en forma de catálogos electrónicos o incluir un catálogo electrónico">
+                        false
+                    </flag>
+                </flags>
+                <cpvs desc="CPV's">
+                    <cpv id="33696500-0">
+                        <name desc="CPV">Reactivos de laboratorio</name>
+                        <main desc="Principal">true</main>
+                    </cpv>
+                </cpvs>
+                <placeExecutionNUTS desc="NUTS del lugar ejecución principal">
+                    <placeExecution id="ES212">
+                        <code desc="Código NUTS">ES212</code>
+                        <name desc="Descripción">Gipuzkoa</name>
+                        <main desc="Principal">true</main>
+                    </placeExecution>
+                </placeExecutionNUTS>
+            </lot>
+        </lots>
+        <operatorsAM desc="Operadores">Varios operadores</operatorsAM>
+        <expFiles desc="Ficheros">
+            <file>
+                <name desc="Nombre del fichero">PCAP Acuerdo marco suministro material de laboratorio ETAP-EDAR
+                    22.06.03.rar
+                </name>
+                <onclick>descargarFichero('1202407')</onclick>
+                <fileType desc="Tipo de fichero">Pliego de cláusulas administrativas particulares</fileType>
+            </file>
+            <file>
+                <name desc="Nombre del fichero">CA-220603.02 Inf. expte. RDLSE (Licitación AM suministro material
+                    laboratorio).pdf
+                </name>
+                <onclick>descargarFichero('1202412')</onclick>
+                <fileType desc="Tipo de fichero">Memoria justificativa</fileType>
+            </file>
+            <file>
+                <name desc="Nombre del fichero">Certificado Vicesecretaria AGASA (Acuerdo 2º CA030622) 22.06.01.pdf
+                </name>
+                <onclick>descargarFichero('1209376')</onclick>
+                <fileType desc="Tipo de fichero">Aprobación del expediente</fileType>
+            </file>
+        </expFiles>
+        <trazability desc="Trazabilidad">/ac70cPublicidadWar/trazabilidad/315045?idioma=es&amp;R01HNoPortal=true
+        </trazability>
+        <isPlazoCerrado>true</isPlazoCerrado>
+        <isPreviousAnnouncement>false</isPreviousAnnouncement>
+        <groupedAnnouncement>false</groupedAnnouncement>
+    </contracting>
+</contractingAnnouncement>
