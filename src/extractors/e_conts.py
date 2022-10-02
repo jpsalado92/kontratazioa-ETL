@@ -16,10 +16,10 @@ from zipfile import ZipFile, BadZipFile
 
 import requests
 
-import scripts.utils.utils as utils
-from scripts.extractors.e_cauths import get_cauth_dict_list
-from scripts.transformers.t_conts import get_conts_file
-from scripts.utils import log
+import src.utils.utils as utils
+from src.extractors.e_cauths import get_cauth_dict_list
+from src.transformers.t_conts import get_conts_file
+from src.utils import log
 
 SCOPE = "conts"
 TIME_STAMP = datetime.now().strftime("%Y%m%d")

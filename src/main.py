@@ -6,11 +6,11 @@ from extractors.e_bidders import get_bidders
 from extractors.e_cauths import get_cauths
 from extractors.e_conts import get_conts
 from extractors.e_tenders import get_tenders
-from scripts.loaders.l_elasticsearch import load_in_es
+from loaders.l_elasticsearch import load_in_es
 from utils import log
 
 DATA_PATH = os.path.join(os.getcwd(), '..', 'data')
-SECRETS_PATH = os.path.join('..', 'secrets')
+SECRETS_PATH = os.path.join(os.getcwd(), '..', 'secrets')
 CAUTH_ID = 'cauths'
 CONT_ID = 'conts'
 BIDDER_ID = 'bidders'

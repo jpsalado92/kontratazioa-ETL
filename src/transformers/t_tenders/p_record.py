@@ -1,6 +1,6 @@
 import logging
 
-from scripts.transformers.t_utils import cast_bool
+from src.transformers.t_utils import cast_bool
 
 
 def parse_record_xml(soup):

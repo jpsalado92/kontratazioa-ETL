@@ -8,9 +8,9 @@ from datetime import datetime
 
 import requests
 
-from scripts.extractors.e_utils import async_download_urls
-from scripts.transformers.t_bidders import get_cbidders_dict
-from scripts.utils import log
+from src.extractors.e_utils import async_download_urls
+from src.transformers.t_bidders import get_cbidders_dict
+from src.utils import log
 
 SCOPE = 'bidders'
 TIME_STAMP = datetime.now().strftime("%Y%m%d")

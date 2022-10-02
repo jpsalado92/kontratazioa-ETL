@@ -4,9 +4,9 @@ import os
 
 from bs4 import BeautifulSoup
 
-from scripts.utils import log
-from scripts.transformers.t_tenders.p_cann import parse_contracting_announcement_xml
-from scripts.transformers.t_tenders.p_record import parse_record_xml
+from src.utils import log
+from src.transformers.t_tenders.p_cann import parse_contracting_announcement_xml
+from src.transformers.t_tenders.p_record import parse_record_xml
 
 
 @log.start_end

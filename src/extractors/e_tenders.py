@@ -8,10 +8,10 @@ from datetime import datetime, date
 
 import requests
 
-from scripts.extractors.e_utils import async_download_urls
-from scripts.transformers.t_tenders.main import get_tenders_file
-from scripts.utils import log
-from scripts.utils.utils import get_hash
+from src.extractors.e_utils import async_download_urls
+from src.transformers.t_tenders.main import get_tenders_file
+from src.utils import log
+from src.utils.utils import get_hash
 
 SCOPE = "tenders"
 

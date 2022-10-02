@@ -4,8 +4,8 @@ import os
 import xml.etree.ElementTree as ET
 from datetime import datetime
 
-import scripts.transformers.t_utils as utils
-from scripts.utils import log
+import src.transformers.t_utils as utils
+from src.utils import log
 
 # Fields from the `.xml` document that may contain array-ed elements
 XML_LIST_FIELDS = (

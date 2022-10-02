@@ -11,7 +11,7 @@ import os
 
 from bs4 import BeautifulSoup
 
-from scripts.utils import log
+from src.utils import log
 
 
 @log.start_end

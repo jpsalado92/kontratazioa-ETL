@@ -9,7 +9,7 @@ from datetime import datetime
 
 import requests
 
-from scripts.transformers.t_utils import del_none
+from src.transformers.t_utils import del_none
 
 SCOPE = 'rec'
 DATA_PATH = os.path.join(os.getcwd(), '..', '..', 'data', SCOPE)

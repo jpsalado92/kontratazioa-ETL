@@ -6,7 +6,7 @@ import json
 import logging
 import os
 
-from scripts.utils.utils import flatten
+from src.utils.utils import flatten
 
 
 def get_cbidders_dict(path):

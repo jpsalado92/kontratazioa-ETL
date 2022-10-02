@@ -8,9 +8,9 @@ from datetime import datetime
 
 import requests
 
-from scripts.transformers.t_cauths import get_cauths_file
-from scripts.transformers.t_utils import del_none, strip_dict
-from scripts.utils import log
+from src.transformers.t_cauths import get_cauths_file
+from src.transformers.t_utils import del_none, strip_dict
+from src.utils import log
 
 SCOPE = "cauths"
 TIME_STAMP = datetime.now().strftime("%Y%m%d")

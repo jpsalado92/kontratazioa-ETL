@@ -7,7 +7,7 @@ from datetime import datetime
 
 import requests
 
-from scripts.transformers.t_utils import del_none, strip_dict
+from src.transformers.t_utils import del_none, strip_dict
 
 SCOPE = 'dimensions'
 TIME_STAMP = datetime.now().strftime("%Y%m%d")
