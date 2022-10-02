@@ -2,15 +2,15 @@ import logging
 import os
 from datetime import datetime
 
-from extractors.e_bidders import get_bidders
-from extractors.e_cauths import get_cauths
-from extractors.e_conts import get_conts
-from extractors.e_tenders import get_tenders
-from loaders.l_elasticsearch import load_in_es
-from utils import log
+from src.extractors.e_bidders import get_bidders
+from src.extractors.e_cauths import get_cauths
+from src.extractors.e_conts import get_conts
+from src.extractors.e_tenders import get_tenders
+from src.loaders.l_elasticsearch import load_in_es
+from src.utils import log
 
-DATA_PATH = os.path.join(os.getcwd(), '..', 'data')
-SECRETS_PATH = os.path.join(os.getcwd(), '..', 'secrets')
+DATA_PATH = os.path.join(os.getcwd(), '', 'data')
+SECRETS_PATH = os.path.join(os.getcwd(), '', 'secrets')
 CAUTH_ID = 'cauths'
 CONT_ID = 'conts'
 BIDDER_ID = 'bidders'

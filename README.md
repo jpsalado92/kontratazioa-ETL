@@ -5,6 +5,9 @@ https://dbader.org/blog/write-a-great-readme-for-your-github-project
 # kontratazioa-ETL
 Repositorio para la explotación de datos de la plataforma de contratos del Gobierno Vasco.
 
+El proyecto funciona bajo python 3.9.
+
+
 ## Objetivos
 ## Instalación
 ## Licencia y autoría
