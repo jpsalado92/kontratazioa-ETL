@@ -9,13 +9,6 @@ import aiohttp
 from aiohttp import ClientSession, ClientTimeout
 
 
-def async_download_urls(urls_fpaths):
-    logging.info(f"Number of objects to be downloaded: {len(urls_fpaths)}")
-    if sys.version_info[0] == 3 and sys.version_info[1] >= 8 and sys.platform.startswith('win'):
-        asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
-    asyncio.run(get_tenders_xmls(urls_fpaths))
-
-
 async def get_html(session: ClientSession, **kwargs) -> str:
     resp = await session.request(**kwargs)
     resp.raise_for_status()
@@ -61,7 +54,7 @@ async def write_one(file: IO, sem: Semaphore, **kwargs) -> None:
             await fl.write(html)
 
 
-async def get_tenders_xmls(urls_fpaths):
+async def manage_tasks(urls_fpaths):
     timeout = ClientTimeout(total=600)
     connector = aiohttp.TCPConnector(limit=100, force_close=True)
     sem = Semaphore(100)
@@ -71,3 +64,10 @@ async def get_tenders_xmls(urls_fpaths):
             tasks.append(write_one(file=fpath, session=session, sem=sem, **request_kwargs))
         await asyncio.gather(*tasks)
     return
+
+
+def async_download_urls(urls_fpaths):
+    logging.info(f"Number of objects to be downloaded: {len(urls_fpaths)}")
+    if sys.version_info[0] == 3 and sys.version_info[1] >= 8 and sys.platform.startswith('win'):
+        asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+    asyncio.run(manage_tasks(urls_fpaths))
